@@ -11,7 +11,7 @@ app.set('port', (process.env.PORT || 5000));
 
 app.get('/', function(request, response) {
   //response.render('pages/index');
-  response.end('this is ggool!');
+  response.end('this is ggool!@!@!');
 });
 
 app.listen(app.get('port'), function() {
