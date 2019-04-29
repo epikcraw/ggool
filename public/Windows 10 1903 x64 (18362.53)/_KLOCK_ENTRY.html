@@ -1,0 +1,35 @@
+<html><body>
+<h4>Windows 10 1903 x64 (18362.53)</h4><br>
+<h2>_KLOCK_ENTRY</h2>
+<font face="arial">   +0x000 TreeNode         : <a href="./_RTL_BALANCED_NODE.html">_RTL_BALANCED_NODE</a><br>
+   +0x000 FreeListEntry    : <a href="./_SINGLE_LIST_ENTRY.html">_SINGLE_LIST_ENTRY</a><br>
+   +0x018 EntryFlags       : Uint4B<br>
+   +0x018 EntryOffset      : UChar<br>
+   +0x019 ThreadLocalFlags : UChar<br>
+   +0x019 WaitingBit       : Pos 0, 1 Bit<br>
+   +0x019 Spare0           : Pos 1, 7 Bits<br>
+   +0x01a AcquiredByte     : UChar<br>
+   +0x01a AcquiredBit      : Pos 0, 1 Bit<br>
+   +0x01b CrossThreadFlags : UChar<br>
+   +0x01b HeadNodeBit      : Pos 0, 1 Bit<br>
+   +0x01b IoPriorityBit    : Pos 1, 1 Bit<br>
+   +0x01b IoQoSWaiter      : Pos 2, 1 Bit<br>
+   +0x01b Spare1           : Pos 3, 5 Bits<br>
+   +0x018 StaticState      : Pos 0, 8 Bits<br>
+   +0x018 AllFlags         : Pos 8, 24 Bits<br>
+   +0x01c SpareFlags       : Uint4B<br>
+   +0x020 LockState        : <a href="./_KLOCK_ENTRY_LOCK_STATE.html">_KLOCK_ENTRY_LOCK_STATE</a><br>
+   +0x020 LockUnsafe       : Ptr64 Void<br>
+   +0x020 CrossThreadReleasableAndBusyByte : UChar<br>
+   +0x021 Reserved         : [6] UChar<br>
+   +0x027 InTreeByte       : UChar<br>
+   +0x028 SessionState     : Ptr64 Void<br>
+   +0x028 SessionId        : Uint4B<br>
+   +0x02c SessionPad       : Uint4B<br>
+   +0x030 OwnerTree        : <a href="./_RTL_RB_TREE.html">_RTL_RB_TREE</a><br>
+   +0x040 WaiterTree       : <a href="./_RTL_RB_TREE.html">_RTL_RB_TREE</a><br>
+   +0x030 CpuPriorityKey   : Char<br>
+   +0x050 EntryLock        : Uint8B<br>
+   +0x058 BoostBitmap      : <a href="./_KLOCK_ENTRY_BOOST_BITMAP.html">_KLOCK_ENTRY_BOOST_BITMAP</a><br>
+   +0x05c SparePad         : Uint4B<br>
+</font></body></html>
