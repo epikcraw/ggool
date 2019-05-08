@@ -1,0 +1,106 @@
+<html><body>
+<h4>Windows 10 1903 x64 (18362.86)</h4><br>
+<h2>_LOADER_PARAMETER_EXTENSION</h2>
+<font face="arial">   +0x000 Size             : Uint4B<br>
+   +0x004 Profile          : <a href="./_PROFILE_PARAMETER_BLOCK.html">_PROFILE_PARAMETER_BLOCK</a><br>
+   +0x018 EmInfFileImage   : Ptr64 Void<br>
+   +0x020 EmInfFileSize    : Uint4B<br>
+   +0x028 TriageDumpBlock  : Ptr64 Void<br>
+   +0x030 HeadlessLoaderBlock : Ptr64 <a href="./_HEADLESS_LOADER_BLOCK.html">_HEADLESS_LOADER_BLOCK</a><br>
+   +0x038 SMBiosEPSHeader  : Ptr64 <a href="./_SMBIOS3_TABLE_HEADER.html">_SMBIOS3_TABLE_HEADER</a><br>
+   +0x040 DrvDBImage       : Ptr64 Void<br>
+   +0x048 DrvDBSize        : Uint4B<br>
+   +0x050 NetworkLoaderBlock : Ptr64 <a href="./_NETWORK_LOADER_BLOCK.html">_NETWORK_LOADER_BLOCK</a><br>
+   +0x058 FirmwareDescriptorListHead : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x068 AcpiTable        : Ptr64 Void<br>
+   +0x070 AcpiTableSize    : Uint4B<br>
+   +0x074 LastBootSucceeded : Pos 0, 1 Bit<br>
+   +0x074 LastBootShutdown : Pos 1, 1 Bit<br>
+   +0x074 IoPortAccessSupported : Pos 2, 1 Bit<br>
+   +0x074 BootDebuggerActive : Pos 3, 1 Bit<br>
+   +0x074 StrongCodeGuarantees : Pos 4, 1 Bit<br>
+   +0x074 HardStrongCodeGuarantees : Pos 5, 1 Bit<br>
+   +0x074 SidSharingDisabled : Pos 6, 1 Bit<br>
+   +0x074 TpmInitialized   : Pos 7, 1 Bit<br>
+   +0x074 VsmConfigured    : Pos 8, 1 Bit<br>
+   +0x074 IumEnabled       : Pos 9, 1 Bit<br>
+   +0x074 IsSmbboot        : Pos 10, 1 Bit<br>
+   +0x074 BootLogEnabled   : Pos 11, 1 Bit<br>
+   +0x074 DriverVerifierEnabled : Pos 12, 1 Bit<br>
+   +0x074 SuppressMonitorX : Pos 13, 1 Bit<br>
+   +0x074 Unused           : Pos 14, 7 Bits<br>
+   +0x074 FeatureSimulations : Pos 21, 6 Bits<br>
+   +0x074 MicrocodeSelfHosting : Pos 27, 1 Bit<br>
+   +0x074 XhciLegacyHandoffSkip : Pos 28, 1 Bit<br>
+   +0x074 DisableInsiderOptInHVCI : Pos 29, 1 Bit<br>
+   +0x074 MicrocodeMinVerSupported : Pos 30, 1 Bit<br>
+   +0x074 GpuIommuEnabled  : Pos 31, 1 Bit<br>
+   +0x078 LoaderPerformanceData : <a href="./_LOADER_PERFORMANCE_DATA.html">_LOADER_PERFORMANCE_DATA</a><br>
+   +0x0d8 BootApplicationPersistentData : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x0e8 WmdTestResult    : Ptr64 Void<br>
+   +0x0f0 BootIdentifier   : <a href="./_GUID.html">_GUID</a><br>
+   +0x100 ResumePages      : Uint4B<br>
+   +0x108 DumpHeader       : Ptr64 Void<br>
+   +0x110 BgContext        : Ptr64 Void<br>
+   +0x118 NumaLocalityInfo : Ptr64 Void<br>
+   +0x120 NumaGroupAssignment : Ptr64 Void<br>
+   +0x128 AttachedHives    : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x138 MemoryCachingRequirementsCount : Uint4B<br>
+   +0x140 MemoryCachingRequirements : Ptr64 Void<br>
+   +0x148 BootEntropyResult : <a href="./_BOOT_ENTROPY_LDR_RESULT.html">_BOOT_ENTROPY_LDR_RESULT</a><br>
+   +0x9b0 ProcessorCounterFrequency : Uint8B<br>
+   +0x9b8 HypervisorExtension : <a href="./_LOADER_PARAMETER_HYPERVISOR_EXTENSION.html">_LOADER_PARAMETER_HYPERVISOR_EXTENSION</a><br>
+   +0x9f8 HardwareConfigurationId : <a href="./_GUID.html">_GUID</a><br>
+   +0xa08 HalExtensionModuleList : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0xa18 SystemTime       : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0xa20 TimeStampAtSystemTimeRead : Uint8B<br>
+   +0xa28 BootFlags        : Uint8B<br>
+   +0xa28 DbgMenuOsSelection : Pos 0, 1 Bit<br>
+   +0xa28 DbgHiberBoot     : Pos 1, 1 Bit<br>
+   +0xa28 DbgSoftRestart   : Pos 2, 1 Bit<br>
+   +0xa28 DbgMeasuredLaunch : Pos 3, 1 Bit<br>
+   +0xa30 InternalBootFlags : Uint8B<br>
+   +0xa30 DbgUtcBootTime   : Pos 0, 1 Bit<br>
+   +0xa30 DbgRtcBootTime   : Pos 1, 1 Bit<br>
+   +0xa30 DbgNoLegacyServices : Pos 2, 1 Bit<br>
+   +0xa38 WfsFPData        : Ptr64 Void<br>
+   +0xa40 WfsFPDataSize    : Uint4B<br>
+   +0xa48 BugcheckParameters : <a href="./_LOADER_BUGCHECK_PARAMETERS.html">_LOADER_BUGCHECK_PARAMETERS</a><br>
+   +0xa70 ApiSetSchema     : Ptr64 Void<br>
+   +0xa78 ApiSetSchemaSize : Uint4B<br>
+   +0xa80 ApiSetSchemaExtensions : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0xa90 AcpiBiosVersion  : <a href="./_UNICODE_STRING.html">_UNICODE_STRING</a><br>
+   +0xaa0 SmbiosVersion    : <a href="./_UNICODE_STRING.html">_UNICODE_STRING</a><br>
+   +0xab0 EfiVersion       : <a href="./_UNICODE_STRING.html">_UNICODE_STRING</a><br>
+   +0xac0 KdDebugDevice    : Ptr64 <a href="./_DEBUG_DEVICE_DESCRIPTOR.html">_DEBUG_DEVICE_DESCRIPTOR</a><br>
+   +0xac8 OfflineCrashdumpConfigurationTable : <a href="./_OFFLINE_CRASHDUMP_CONFIGURATION_TABLE_V2.html">_OFFLINE_CRASHDUMP_CONFIGURATION_TABLE_V2</a><br>
+   +0xae8 ManufacturingProfile : <a href="./_UNICODE_STRING.html">_UNICODE_STRING</a><br>
+   +0xaf8 BbtBuffer        : Ptr64 Void<br>
+   +0xb00 XsaveAllowedFeatures : Uint8B<br>
+   +0xb08 XsaveFlags       : Uint4B<br>
+   +0xb10 BootOptions      : Ptr64 Void<br>
+   +0xb18 IumEnablement    : Uint4B<br>
+   +0xb1c IumPolicy        : Uint4B<br>
+   +0xb20 IumStatus        : Int4B<br>
+   +0xb24 BootId           : Uint4B<br>
+   +0xb28 CodeIntegrityData : Ptr64 <a href="./_LOADER_PARAMETER_CI_EXTENSION.html">_LOADER_PARAMETER_CI_EXTENSION</a><br>
+   +0xb30 CodeIntegrityDataSize : Uint4B<br>
+   +0xb34 SystemHiveRecoveryInfo : <a href="./_LOADER_HIVE_RECOVERY_INFO.html">_LOADER_HIVE_RECOVERY_INFO</a><br>
+   +0xb48 SoftRestartCount : Uint4B<br>
+   +0xb50 SoftRestartTime  : Int8B<br>
+   +0xb58 HypercallCodeVa  : Ptr64 Void<br>
+   +0xb60 HalVirtualAddress : Ptr64 Void<br>
+   +0xb68 HalNumberOfBytes : Uint8B<br>
+   +0xb70 LeapSecondData   : Ptr64 <a href="./_LEAP_SECOND_DATA.html">_LEAP_SECOND_DATA</a><br>
+   +0xb78 MajorRelease     : Uint4B<br>
+   +0xb7c Reserved1        : Uint4B<br>
+   +0xb80 NtBuildLab       : [224] Char<br>
+   +0xc60 NtBuildLabEx     : [224] Char<br>
+   +0xd40 ResetReason      : <a href="./_LOADER_RESET_REASON.html">_LOADER_RESET_REASON</a><br>
+   +0xd70 MaxPciBusNumber  : Uint4B<br>
+   +0xd74 FeatureSettings  : Uint4B<br>
+   +0xd78 HotPatchReserveSize : Uint4B<br>
+   +0xd7c RetpolineReserveSize : Uint4B<br>
+   +0xd80 MiniExecutive    : <a href="./<anonymous-tag>.html"><anonymous-tag></a><br>
+   +0xd90 VsmPerformanceData : <a href="./_VSM_PERFORMANCE_DATA.html">_VSM_PERFORMANCE_DATA</a><br>
+</font></body></html>

@@ -1,0 +1,74 @@
+<html><body>
+<h4>Windows 10 1903 x64 (18362.86)</h4><br>
+<h2>_CMHIVE</h2>
+<font face="arial">   +0x000 Hive             : <a href="./_HHIVE.html">_HHIVE</a><br>
+   +0x600 FileHandles      : [6] Ptr64 Void<br>
+   +0x630 NotifyList       : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x640 HiveList         : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x650 PreloadedHiveList : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x660 HiveRundown      : <a href="./_EX_RUNDOWN_REF.html">_EX_RUNDOWN_REF</a><br>
+   +0x668 KcbCacheTable    : Ptr64 <a href="./_CM_KEY_HASH_TABLE_ENTRY.html">_CM_KEY_HASH_TABLE_ENTRY</a><br>
+   +0x670 KcbCacheTableSize : Uint4B<br>
+   +0x678 DeletedKcbTable  : Ptr64 <a href="./_CM_KEY_HASH_TABLE_ENTRY.html">_CM_KEY_HASH_TABLE_ENTRY</a><br>
+   +0x680 DeletedKcbTableSize : Uint4B<br>
+   +0x684 Identity         : Uint4B<br>
+   +0x688 HiveLock         : <a href="./_CMSI_RW_LOCK.html">_CMSI_RW_LOCK</a><br>
+   +0x690 FlushDirtyVector : <a href="./_RTL_BITMAP.html">_RTL_BITMAP</a><br>
+   +0x6a0 FlushDirtyVectorSize : Uint4B<br>
+   +0x6a8 FlushLogEntryOffsetArray : Ptr64 <a href="./CMP_OFFSET_ARRAY.html">CMP_OFFSET_ARRAY</a><br>
+   +0x6b0 FlushLogEntryOffsetArrayCount : Uint4B<br>
+   +0x6b4 FlushLogEntrySize : Uint4B<br>
+   +0x6b8 FlushHiveTruncated : Uint4B<br>
+   +0x6bc FlushBaseBlockDirty : UChar<br>
+   +0x6c0 CapturedUnreconciledVector : <a href="./_RTL_BITMAP.html">_RTL_BITMAP</a><br>
+   +0x6d0 CapturedUnreconciledVectorSize : Uint4B<br>
+   +0x6d8 UnreconciledOffsetArray : Ptr64 <a href="./CMP_OFFSET_ARRAY.html">CMP_OFFSET_ARRAY</a><br>
+   +0x6e0 UnreconciledOffsetArrayCount : Uint4B<br>
+   +0x6e8 UnreconciledBaseBlock : Ptr64 <a href="./_HBASE_BLOCK.html">_HBASE_BLOCK</a><br>
+   +0x6f0 SecurityLock     : <a href="./_EX_PUSH_LOCK.html">_EX_PUSH_LOCK</a><br>
+   +0x6f8 LastShrinkHiveSize : Uint4B<br>
+   +0x700 ActualFileSize   : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x708 LogFileSizes     : [2] <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x718 FileFullPath     : <a href="./_UNICODE_STRING.html">_UNICODE_STRING</a><br>
+   +0x728 FileUserName     : <a href="./_UNICODE_STRING.html">_UNICODE_STRING</a><br>
+   +0x738 HiveRootPath     : <a href="./_UNICODE_STRING.html">_UNICODE_STRING</a><br>
+   +0x748 SecurityCount    : Uint4B<br>
+   +0x74c SecurityCacheSize : Uint4B<br>
+   +0x750 SecurityHitHint  : Int4B<br>
+   +0x758 SecurityCache    : Ptr64 <a href="./_CM_KEY_SECURITY_CACHE_ENTRY.html">_CM_KEY_SECURITY_CACHE_ENTRY</a><br>
+   +0x760 SecurityHash     : [64] <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0xb60 UnloadEventCount : Uint4B<br>
+   +0xb68 UnloadEventArray : Ptr64 Ptr64 <a href="./_KEVENT.html">_KEVENT</a><br>
+   +0xb70 RootKcb          : Ptr64 <a href="./_CM_KEY_CONTROL_BLOCK.html">_CM_KEY_CONTROL_BLOCK</a><br>
+   +0xb78 Frozen           : UChar<br>
+   +0xb80 UnloadWorkItem   : Ptr64 <a href="./_CM_WORKITEM.html">_CM_WORKITEM</a><br>
+   +0xb88 UnloadWorkItemHolder : <a href="./_CM_WORKITEM.html">_CM_WORKITEM</a><br>
+   +0xbb0 DirtyVectorLog   : <a href="./_CM_DIRTY_VECTOR_LOG.html">_CM_DIRTY_VECTOR_LOG</a><br>
+   +0x1038 Flags            : Uint4B<br>
+   +0x1040 TrustClassEntry  : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x1050 DirtyTime        : Uint8B<br>
+   +0x1058 UnreconciledTime : Uint8B<br>
+   +0x1060 CmRm             : Ptr64 <a href="./_CM_RM.html">_CM_RM</a><br>
+   +0x1068 CmRmInitFailPoint : Uint4B<br>
+   +0x106c CmRmInitFailStatus : Int4B<br>
+   +0x1070 CreatorOwner     : Ptr64 <a href="./_KTHREAD.html">_KTHREAD</a><br>
+   +0x1078 RundownThread    : Ptr64 <a href="./_KTHREAD.html">_KTHREAD</a><br>
+   +0x1080 LastWriteTime    : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x1088 FlushQueue       : <a href="./_HIVE_WRITE_WAIT_QUEUE.html">_HIVE_WRITE_WAIT_QUEUE</a><br>
+   +0x1098 ReconcileQueue   : <a href="./_HIVE_WRITE_WAIT_QUEUE.html">_HIVE_WRITE_WAIT_QUEUE</a><br>
+   +0x10a8 FlushFlags       : Uint4B<br>
+   +0x10a8 PrimaryFilePurged : Pos 0, 1 Bit<br>
+   +0x10a8 DiskFileBad      : Pos 1, 1 Bit<br>
+   +0x10ac PrimaryFileSizeBeforeLastFlush : Uint4B<br>
+   +0x10b0 ReferenceCount   : Int4B<br>
+   +0x10b4 UnloadHistoryIndex : Int4B<br>
+   +0x10b8 UnloadHistory    : [128] Uint4B<br>
+   +0x12b8 BootStart        : Uint4B<br>
+   +0x12bc UnaccessedStart  : Uint4B<br>
+   +0x12c0 UnaccessedEnd    : Uint4B<br>
+   +0x12c4 LoadedKeyCount   : Uint4B<br>
+   +0x12c8 HandleClosePending : Uint4B<br>
+   +0x12d0 HandleClosePendingEvent : <a href="./_EX_PUSH_LOCK.html">_EX_PUSH_LOCK</a><br>
+   +0x12d8 FinalFlushSucceeded : UChar<br>
+   +0x12e0 VolumeContext    : Ptr64 <a href="./_CMP_VOLUME_CONTEXT.html">_CMP_VOLUME_CONTEXT</a><br>
+</font></body></html>
