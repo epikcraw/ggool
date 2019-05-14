@@ -1,0 +1,151 @@
+<html><body>
+<h4>Windows 10 x64 (18362.86)</h4><br>
+<h2>_WMI_LOGGER_CONTEXT</h2>
+<font face="arial">   +0x000 LoggerId         : Uint4B<br>
+   +0x004 BufferSize       : Uint4B<br>
+   +0x008 MaximumEventSize : Uint4B<br>
+   +0x00c LoggerMode       : Uint4B<br>
+   +0x010 AcceptNewEvents  : Int4B<br>
+   +0x014 EventMarker      : [2] Uint4B<br>
+   +0x01c ErrorMarker      : Uint4B<br>
+   +0x020 SizeMask         : Uint4B<br>
+   +0x028 GetCpuClock      : Ptr64     int64 <br>
+   +0x030 LoggerThread     : Ptr64 <a href="./_ETHREAD.html">_ETHREAD</a><br>
+   +0x038 LoggerStatus     : Int4B<br>
+   +0x03c FailureReason    : Uint4B<br>
+   +0x040 BufferQueue      : <a href="./_ETW_BUFFER_QUEUE.html">_ETW_BUFFER_QUEUE</a><br>
+   +0x050 OverflowQueue    : <a href="./_ETW_BUFFER_QUEUE.html">_ETW_BUFFER_QUEUE</a><br>
+   +0x060 GlobalList       : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x070 DebugIdTrackingList : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x080 DecodeControlList : Ptr64 <a href="./_ETW_DECODE_CONTROL_ENTRY.html">_ETW_DECODE_CONTROL_ENTRY</a><br>
+   +0x088 DecodeControlCount : Uint4B<br>
+   +0x090 BatchedBufferList : Ptr64 <a href="./_WMI_BUFFER_HEADER.html">_WMI_BUFFER_HEADER</a><br>
+   +0x090 CurrentBuffer    : <a href="./_EX_FAST_REF.html">_EX_FAST_REF</a><br>
+   +0x098 LoggerName       : <a href="./_UNICODE_STRING.html">_UNICODE_STRING</a><br>
+   +0x0a8 LogFileName      : <a href="./_UNICODE_STRING.html">_UNICODE_STRING</a><br>
+   +0x0b8 LogFilePattern   : <a href="./_UNICODE_STRING.html">_UNICODE_STRING</a><br>
+   +0x0c8 NewLogFileName   : <a href="./_UNICODE_STRING.html">_UNICODE_STRING</a><br>
+   +0x0d8 ClockType        : Uint4B<br>
+   +0x0dc LastFlushedBuffer : Uint4B<br>
+   +0x0e0 FlushTimer       : Uint4B<br>
+   +0x0e4 FlushThreshold   : Uint4B<br>
+   +0x0e8 ByteOffset       : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x0f0 MinimumBuffers   : Uint4B<br>
+   +0x0f4 BuffersAvailable : Int4B<br>
+   +0x0f8 NumberOfBuffers  : Int4B<br>
+   +0x0fc MaximumBuffers   : Uint4B<br>
+   +0x100 EventsLost       : Uint4B<br>
+   +0x104 PeakBuffersCount : Int4B<br>
+   +0x108 BuffersWritten   : Uint4B<br>
+   +0x10c LogBuffersLost   : Uint4B<br>
+   +0x110 RealTimeBuffersDelivered : Uint4B<br>
+   +0x114 RealTimeBuffersLost : Uint4B<br>
+   +0x118 SequencePtr      : Ptr64 Int4B<br>
+   +0x120 LocalSequence    : Uint4B<br>
+   +0x124 InstanceGuid     : <a href="./_GUID.html">_GUID</a><br>
+   +0x134 MaximumFileSize  : Uint4B<br>
+   +0x138 FileCounter      : Int4B<br>
+   +0x13c PoolType         : <a href="./_POOL_TYPE.html">_POOL_TYPE</a><br>
+   +0x140 ReferenceTime    : <a href="./_ETW_REF_CLOCK.html">_ETW_REF_CLOCK</a><br>
+   +0x150 CollectionOn     : Int4B<br>
+   +0x154 ProviderInfoSize : Uint4B<br>
+   +0x158 Consumers        : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x168 NumConsumers     : Uint4B<br>
+   +0x170 TransitionConsumer : Ptr64 <a href="./_ETW_REALTIME_CONSUMER.html">_ETW_REALTIME_CONSUMER</a><br>
+   +0x178 RealtimeLogfileHandle : Ptr64 Void<br>
+   +0x180 RealtimeLogfileName : <a href="./_UNICODE_STRING.html">_UNICODE_STRING</a><br>
+   +0x190 RealtimeWriteOffset : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x198 RealtimeReadOffset : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x1a0 RealtimeLogfileSize : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x1a8 RealtimeLogfileUsage : Uint8B<br>
+   +0x1b0 RealtimeMaximumFileSize : Uint8B<br>
+   +0x1b8 RealtimeBuffersSaved : Uint4B<br>
+   +0x1c0 RealtimeReferenceTime : <a href="./_ETW_REF_CLOCK.html">_ETW_REF_CLOCK</a><br>
+   +0x1d0 NewRTEventsLost  : <a href="./_ETW_RT_EVENT_LOSS.html">_ETW_RT_EVENT_LOSS</a><br>
+   +0x1d8 LoggerEvent      : <a href="./_KEVENT.html">_KEVENT</a><br>
+   +0x1f0 FlushEvent       : <a href="./_KEVENT.html">_KEVENT</a><br>
+   +0x208 FlushTimeOutTimer : <a href="./_KTIMER.html">_KTIMER</a><br>
+   +0x248 LoggerDpc        : <a href="./_KDPC.html">_KDPC</a><br>
+   +0x288 LoggerMutex      : <a href="./_KMUTANT.html">_KMUTANT</a><br>
+   +0x2c0 LoggerLock       : <a href="./_EX_PUSH_LOCK.html">_EX_PUSH_LOCK</a><br>
+   +0x2c8 BufferListSpinLock : Uint8B<br>
+   +0x2c8 BufferListPushLock : <a href="./_EX_PUSH_LOCK.html">_EX_PUSH_LOCK</a><br>
+   +0x2d0 ClientSecurityContext : <a href="./_SECURITY_CLIENT_CONTEXT.html">_SECURITY_CLIENT_CONTEXT</a><br>
+   +0x318 TokenAccessInformation : Ptr64 <a href="./_TOKEN_ACCESS_INFORMATION.html">_TOKEN_ACCESS_INFORMATION</a><br>
+   +0x320 SecurityDescriptor : <a href="./_EX_FAST_REF.html">_EX_FAST_REF</a><br>
+   +0x328 StartTime        : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x330 LogFileHandle    : Ptr64 Void<br>
+   +0x338 BufferSequenceNumber : Int8B<br>
+   +0x340 Flags            : Uint4B<br>
+   +0x340 Persistent       : Pos 0, 1 Bit<br>
+   +0x340 AutoLogger       : Pos 1, 1 Bit<br>
+   +0x340 FsReady          : Pos 2, 1 Bit<br>
+   +0x340 RealTime         : Pos 3, 1 Bit<br>
+   +0x340 Wow              : Pos 4, 1 Bit<br>
+   +0x340 KernelTrace      : Pos 5, 1 Bit<br>
+   +0x340 NoMoreEnable     : Pos 6, 1 Bit<br>
+   +0x340 StackTracing     : Pos 7, 1 Bit<br>
+   +0x340 ErrorLogged      : Pos 8, 1 Bit<br>
+   +0x340 RealtimeLoggerContextFreed : Pos 9, 1 Bit<br>
+   +0x340 PebsTracing      : Pos 10, 1 Bit<br>
+   +0x340 PmcCounters      : Pos 11, 1 Bit<br>
+   +0x340 PageAlignBuffers : Pos 12, 1 Bit<br>
+   +0x340 StackLookasideListAllocated : Pos 13, 1 Bit<br>
+   +0x340 SecurityTrace    : Pos 14, 1 Bit<br>
+   +0x340 LastBranchTracing : Pos 15, 1 Bit<br>
+   +0x340 SystemLoggerIndex : Pos 16, 8 Bits<br>
+   +0x340 StackCaching     : Pos 24, 1 Bit<br>
+   +0x340 ProviderTracking : Pos 25, 1 Bit<br>
+   +0x340 ProcessorTrace   : Pos 26, 1 Bit<br>
+   +0x340 QpcDeltaTracking : Pos 27, 1 Bit<br>
+   +0x340 MarkerBufferSaved : Pos 28, 1 Bit<br>
+   +0x340 SpareFlags2      : Pos 29, 3 Bits<br>
+   +0x344 RequestFlag      : Uint4B<br>
+   +0x344 DbgRequestNewFile : Pos 0, 1 Bit<br>
+   +0x344 DbgRequestUpdateFile : Pos 1, 1 Bit<br>
+   +0x344 DbgRequestFlush  : Pos 2, 1 Bit<br>
+   +0x344 DbgRequestDisableRealtime : Pos 3, 1 Bit<br>
+   +0x344 DbgRequestDisconnectConsumer : Pos 4, 1 Bit<br>
+   +0x344 DbgRequestConnectConsumer : Pos 5, 1 Bit<br>
+   +0x344 DbgRequestNotifyConsumer : Pos 6, 1 Bit<br>
+   +0x344 DbgRequestUpdateHeader : Pos 7, 1 Bit<br>
+   +0x344 DbgRequestDeferredFlush : Pos 8, 1 Bit<br>
+   +0x344 DbgRequestDeferredFlushTimer : Pos 9, 1 Bit<br>
+   +0x344 DbgRequestFlushTimer : Pos 10, 1 Bit<br>
+   +0x344 DbgRequestUpdateDebugger : Pos 11, 1 Bit<br>
+   +0x344 DbgSpareRequestFlags : Pos 12, 20 Bits<br>
+   +0x350 StackTraceBlock  : <a href="./_ETW_STACK_TRACE_BLOCK.html">_ETW_STACK_TRACE_BLOCK</a><br>
+   +0x3d0 HookIdMap        : <a href="./_RTL_BITMAP.html">_RTL_BITMAP</a><br>
+   +0x3e0 StackCache       : Ptr64 <a href="./_ETW_STACK_CACHE.html">_ETW_STACK_CACHE</a><br>
+   +0x3e8 PmcData          : Ptr64 <a href="./_ETW_PMC_SUPPORT.html">_ETW_PMC_SUPPORT</a><br>
+   +0x3f0 LbrData          : Ptr64 <a href="./_ETW_LBR_SUPPORT.html">_ETW_LBR_SUPPORT</a><br>
+   +0x3f8 IptData          : Ptr64 <a href="./_ETW_IPT_SUPPORT.html">_ETW_IPT_SUPPORT</a><br>
+   +0x400 BinaryTrackingList : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x410 ScratchArray     : Ptr64 Ptr64 <a href="./_WMI_BUFFER_HEADER.html">_WMI_BUFFER_HEADER</a><br>
+   +0x418 DisallowedGuids  : <a href="./_DISALLOWED_GUIDS.html">_DISALLOWED_GUIDS</a><br>
+   +0x428 RelativeTimerDueTime : Int8B<br>
+   +0x430 PeriodicCaptureStateGuids : <a href="./_PERIODIC_CAPTURE_STATE_GUIDS.html">_PERIODIC_CAPTURE_STATE_GUIDS</a><br>
+   +0x440 PeriodicCaptureStateTimer : Ptr64 <a href="./_EX_TIMER.html">_EX_TIMER</a><br>
+   +0x448 PeriodicCaptureStateTimerState : <a href="./_ETW_PERIODIC_TIMER_STATE.html">_ETW_PERIODIC_TIMER_STATE</a><br>
+   +0x450 SoftRestartContext : Ptr64 <a href="./_ETW_SOFT_RESTART_CONTEXT.html">_ETW_SOFT_RESTART_CONTEXT</a><br>
+   +0x458 SiloState        : Ptr64 <a href="./_ETW_SILODRIVERSTATE.html">_ETW_SILODRIVERSTATE</a><br>
+   +0x460 CompressionWorkItem : <a href="./_WORK_QUEUE_ITEM.html">_WORK_QUEUE_ITEM</a><br>
+   +0x480 CompressionWorkItemState : Int4B<br>
+   +0x488 CompressionLock  : <a href="./_EX_PUSH_LOCK.html">_EX_PUSH_LOCK</a><br>
+   +0x490 CompressionTarget : Ptr64 <a href="./_WMI_BUFFER_HEADER.html">_WMI_BUFFER_HEADER</a><br>
+   +0x498 CompressionWorkspace : Ptr64 Void<br>
+   +0x4a0 CompressionOn    : Int4B<br>
+   +0x4a4 CompressionRatioGuess : Uint4B<br>
+   +0x4a8 PartialBufferCompressionLevel : Uint4B<br>
+   +0x4ac CompressionResumptionMode : <a href="./ETW_COMPRESSION_RESUMPTION_MODE.html">ETW_COMPRESSION_RESUMPTION_MODE</a><br>
+   +0x4b0 PlaceholderList  : <a href="./_SINGLE_LIST_ENTRY.html">_SINGLE_LIST_ENTRY</a><br>
+   +0x4b8 CompressionDpc   : <a href="./_KDPC.html">_KDPC</a><br>
+   +0x4f8 LastBufferSwitchTime : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x500 BufferWriteDuration : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x508 BufferCompressDuration : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x510 ReferenceQpcDelta : Int8B<br>
+   +0x518 CallbackContext  : Ptr64 <a href="./_ETW_EVENT_CALLBACK_CONTEXT.html">_ETW_EVENT_CALLBACK_CONTEXT</a><br>
+   +0x520 LastDroppedTime  : Ptr64 <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x528 FlushingLastDroppedTime : Ptr64 <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x530 FlushingSequenceNumber : Int8B<br>
+</font></body></html>
