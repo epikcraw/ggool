@@ -1,0 +1,29 @@
+<html><body>
+<h4>Windows 10 x64 (18362.113)</h4><br>
+<h2>_CM_TRANS</h2>
+<font face="arial">   +0x000 TransactionListEntry : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x010 KCBUoWListHead   : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x020 LazyCommitListEntry : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x030 Prepared         : Pos 0, 1 Bit<br>
+   +0x030 Aborted          : Pos 1, 1 Bit<br>
+   +0x030 Committed        : Pos 2, 1 Bit<br>
+   +0x030 Initializing     : Pos 3, 1 Bit<br>
+   +0x030 Invalid          : Pos 4, 1 Bit<br>
+   +0x030 UseReservation   : Pos 5, 1 Bit<br>
+   +0x030 TmCallbacksActive : Pos 6, 1 Bit<br>
+   +0x030 LightWeight      : Pos 7, 1 Bit<br>
+   +0x030 Freed1           : Pos 8, 1 Bit<br>
+   +0x030 Freed2           : Pos 9, 1 Bit<br>
+   +0x030 Spare1           : Pos 10, 2 Bits<br>
+   +0x030 Freed            : Pos 12, 1 Bit<br>
+   +0x030 Spare            : Pos 13, 19 Bits<br>
+   +0x030 TransState       : Uint4B<br>
+   +0x038 Trans            : <a href="./_CM_TRANS_PTR.html">_CM_TRANS_PTR</a><br>
+   +0x040 CmRm             : Ptr64 <a href="./_CM_RM.html">_CM_RM</a><br>
+   +0x048 KtmEnlistmentObject : Ptr64 <a href="./_KENLISTMENT.html">_KENLISTMENT</a><br>
+   +0x050 KtmEnlistmentHandle : Ptr64 Void<br>
+   +0x058 KtmUow           : <a href="./_GUID.html">_GUID</a><br>
+   +0x068 StartLsn         : Uint8B<br>
+   +0x070 HiveCount        : Uint4B<br>
+   +0x078 HiveArray        : [8] Ptr64 <a href="./_CMHIVE.html">_CMHIVE</a><br>
+</font></body></html>
