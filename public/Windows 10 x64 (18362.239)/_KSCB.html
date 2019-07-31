@@ -1,0 +1,31 @@
+<html><body>
+<h4>Windows 10 x64 (18362.239)</h4><br>
+<h2>_KSCB</h2>
+<font face="arial">   +0x000 GenerationCycles : Uint8B<br>
+   +0x008 MinQuotaCycleTarget : Uint8B<br>
+   +0x010 MaxQuotaCycleTarget : Uint8B<br>
+   +0x018 RankCycleTarget  : Uint8B<br>
+   +0x020 LongTermCycles   : Uint8B<br>
+   +0x028 LastReportedCycles : Uint8B<br>
+   +0x030 OverQuotaHistory : Uint8B<br>
+   +0x038 ReadyTime        : Uint8B<br>
+   +0x040 InsertTime       : Uint8B<br>
+   +0x048 PerProcessorList : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x058 QueueNode        : <a href="./_RTL_BALANCED_NODE.html">_RTL_BALANCED_NODE</a><br>
+   +0x070 Inserted         : Pos 0, 1 Bit<br>
+   +0x070 MaxOverQuota     : Pos 1, 1 Bit<br>
+   +0x070 MinOverQuota     : Pos 2, 1 Bit<br>
+   +0x070 RankBias         : Pos 3, 1 Bit<br>
+   +0x070 SoftCap          : Pos 4, 1 Bit<br>
+   +0x070 ShareRankOwner   : Pos 5, 1 Bit<br>
+   +0x070 Spare1           : Pos 6, 2 Bits<br>
+   +0x071 Depth            : UChar<br>
+   +0x072 ReadySummary     : Uint2B<br>
+   +0x074 Rank             : Uint4B<br>
+   +0x078 ShareRank        : Ptr64 Uint4B<br>
+   +0x080 OwnerShareRank   : Uint4B<br>
+   +0x088 ReadyListHead    : [16] <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x188 ChildScbQueue    : <a href="./_RTL_RB_TREE.html">_RTL_RB_TREE</a><br>
+   +0x198 Parent           : Ptr64 <a href="./_KSCB.html">_KSCB</a><br>
+   +0x1a0 Root             : Ptr64 <a href="./_KSCB.html">_KSCB</a><br>
+</font></body></html>
