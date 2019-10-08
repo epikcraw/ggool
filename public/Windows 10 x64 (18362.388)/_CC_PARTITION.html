@@ -1,0 +1,75 @@
+<html><body>
+<h4>Windows 10 x64 (18362.388)</h4><br>
+<h2>_CC_PARTITION</h2>
+<font face="arial">   +0x000 NodeTypeCode     : Int2B<br>
+   +0x002 NodeByteSize     : Int2B<br>
+   +0x008 PartitionObject  : Ptr64 <a href="./_EPARTITION.html">_EPARTITION</a><br>
+   +0x010 CleanSharedCacheMapList : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x020 CleanSharedCacheMapWithLogHandleList : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x030 DirtySharedCacheMapList : <a href="./_SHARED_CACHE_MAP_LIST_CURSOR.html">_SHARED_CACHE_MAP_LIST_CURSOR</a><br>
+   +0x048 LazyWriteCursor  : <a href="./_SHARED_CACHE_MAP_LIST_CURSOR.html">_SHARED_CACHE_MAP_LIST_CURSOR</a><br>
+   +0x060 DirtySharedCacheMapWithLogHandleList : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x080 PrivateLock      : Uint8B<br>
+   +0x088 ConsecutiveWorklessLazyScanCount : Uint4B<br>
+   +0x08c ForcedDisableLazywriteScan : UChar<br>
+   +0x0c0 WorkQueueLock    : Uint8B<br>
+   +0x0c8 NumberWorkerThreads : Uint4B<br>
+   +0x0cc NumberActiveWorkerThreads : Uint4B<br>
+   +0x0d0 IdleWorkerThreadList : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x0e0 FastTeardownWorkQueue : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x0f0 ExpressWorkQueue : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x100 RegularWorkQueue : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x110 PostTickWorkQueue : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x120 IdleExtraWriteBehindThreadList : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x130 ActiveExtraWriteBehindThreads : Uint4B<br>
+   +0x134 MaxExtraWriteBehindThreads : Uint4B<br>
+   +0x138 QueueThrottle    : UChar<br>
+   +0x13c PostTickWorkItemCount : Uint4B<br>
+   +0x140 ThreadsActiveBeforeThrottle : Uint4B<br>
+   +0x144 ExtraWBThreadsActiveBeforeThrottle : Uint4B<br>
+   +0x148 ExecutingWriteBehindWorkItems : Uint4B<br>
+   +0x14c ExecutingHighPriorityWorkItem : Uint4B<br>
+   +0x150 LowMemoryEvent   : <a href="./_KEVENT.html">_KEVENT</a><br>
+   +0x168 PowerEvent       : <a href="./_KEVENT.html">_KEVENT</a><br>
+   +0x180 PeriodicEvent    : <a href="./_KEVENT.html">_KEVENT</a><br>
+   +0x198 WaitingForTeardownEvent : <a href="./_KEVENT.html">_KEVENT</a><br>
+   +0x1b0 CoalescingFlushEvent : <a href="./_KEVENT.html">_KEVENT</a><br>
+   +0x1c8 PagesYetToWrite  : Uint4B<br>
+   +0x1d0 LazyWriter       : <a href="./_LAZY_WRITER.html">_LAZY_WRITER</a><br>
+   +0x258 DirtyPageStatistics : <a href="./_DIRTY_PAGE_STATISTICS.html">_DIRTY_PAGE_STATISTICS</a><br>
+   +0x270 DirtyPageThresholds : <a href="./_DIRTY_PAGE_THRESHOLDS.html">_DIRTY_PAGE_THRESHOLDS</a><br>
+   +0x2a8 ThroughputStats  : Ptr64 <a href="./_WRITE_BEHIND_THROUGHPUT.html">_WRITE_BEHIND_THROUGHPUT</a><br>
+   +0x2b0 ThroughputTrend  : Int4B<br>
+   +0x2b8 AverageAvailablePages : Uint8B<br>
+   +0x2c0 AverageDirtyPages : Uint8B<br>
+   +0x2c8 PagesSkippedDueToHotSpot : Uint8B<br>
+   +0x2d0 PrevRegularQueueItemRunTime : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x2d8 PrevExtraWBThreadCheckTime : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x2e0 AddExtraWriteBehindThreads : UChar<br>
+   +0x2e1 RemoveExtraThreadPending : UChar<br>
+   +0x2e8 DeferredWrites   : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x300 DeferredWriteSpinLock : Uint8B<br>
+   +0x308 IdleAsyncReadWorkerThreadList : Ptr64 <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x310 NumberActiveAsyncReadWorkerThreads : Ptr64 Uint4B<br>
+   +0x318 NumberActiveCompleteAsyncReadWorkItems : Ptr64 Uint4B<br>
+   +0x320 AsyncReadWorkQueue : Ptr64 <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x328 AsyncReadCompletionWorkQueue : Ptr64 <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x330 NewAsyncReadRequestEvent : Ptr64 <a href="./_KEVENT.html">_KEVENT</a><br>
+   +0x338 ReaderThreadsStats : Ptr64 <a href="./_ASYNC_READ_THREAD_STATS.html">_ASYNC_READ_THREAD_STATS</a><br>
+   +0x340 AsyncReadWorkQueueLock : <a href="./_EX_PUSH_LOCK.html">_EX_PUSH_LOCK</a><br>
+   +0x348 VacbFreeHighPriorityList : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x358 NumberOfFreeHighPriorityVacbs : Uint4B<br>
+   +0x360 LowPriWorkerThread : Ptr64 <a href="./_ETHREAD.html">_ETHREAD</a><br>
+   +0x368 LowPriSharedCacheMap : Ptr64 <a href="./_SHARED_CACHE_MAP.html">_SHARED_CACHE_MAP</a><br>
+   +0x370 LowPriOldCpuPriority : Int4B<br>
+   +0x374 LowPriOldIoPriority : <a href="./_IO_PRIORITY_HINT.html">_IO_PRIORITY_HINT</a><br>
+   +0x378 LowPriorityWorkerThreadLock : <a href="./_EX_PUSH_LOCK.html">_EX_PUSH_LOCK</a><br>
+   +0x380 MaxNumberOfWriteBehindThreads : Uint4B<br>
+   +0x384 CoalescingState  : UChar<br>
+   +0x385 ActivePartition  : UChar<br>
+   +0x386 RundownPhase     : UChar<br>
+   +0x388 RefCount         : Int8B<br>
+   +0x390 ExitEvent        : <a href="./_KEVENT.html">_KEVENT</a><br>
+   +0x3a8 FinalDereferenceEvent : <a href="./_KEVENT.html">_KEVENT</a><br>
+   +0x3c0 LazyWriteScanThreadHandle : Ptr64 Void<br>
+</font></body></html>
