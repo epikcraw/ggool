@@ -1,0 +1,119 @@
+<html><body>
+<h4>Windows 10 x64 (18362.418)</h4><br>
+<h2>_PEB</h2>
+<font face="arial">   +0x000 InheritedAddressSpace : UChar<br>
+   +0x001 ReadImageFileExecOptions : UChar<br>
+   +0x002 BeingDebugged    : UChar<br>
+   +0x003 BitField         : UChar<br>
+   +0x003 ImageUsesLargePages : Pos 0, 1 Bit<br>
+   +0x003 IsProtectedProcess : Pos 1, 1 Bit<br>
+   +0x003 IsImageDynamicallyRelocated : Pos 2, 1 Bit<br>
+   +0x003 SkipPatchingUser32Forwarders : Pos 3, 1 Bit<br>
+   +0x003 IsPackagedProcess : Pos 4, 1 Bit<br>
+   +0x003 IsAppContainer   : Pos 5, 1 Bit<br>
+   +0x003 IsProtectedProcessLight : Pos 6, 1 Bit<br>
+   +0x003 IsLongPathAwareProcess : Pos 7, 1 Bit<br>
+   +0x004 Padding0         : [4] UChar<br>
+   +0x008 Mutant           : Ptr64 Void<br>
+   +0x010 ImageBaseAddress : Ptr64 Void<br>
+   +0x018 Ldr              : Ptr64 <a href="./_PEB_LDR_DATA.html">_PEB_LDR_DATA</a><br>
+   +0x020 ProcessParameters : Ptr64 <a href="./_RTL_USER_PROCESS_PARAMETERS.html">_RTL_USER_PROCESS_PARAMETERS</a><br>
+   +0x028 SubSystemData    : Ptr64 Void<br>
+   +0x030 ProcessHeap      : Ptr64 Void<br>
+   +0x038 FastPebLock      : Ptr64 <a href="./_RTL_CRITICAL_SECTION.html">_RTL_CRITICAL_SECTION</a><br>
+   +0x040 AtlThunkSListPtr : Ptr64 <a href="./_SLIST_HEADER.html">_SLIST_HEADER</a><br>
+   +0x048 IFEOKey          : Ptr64 Void<br>
+   +0x050 CrossProcessFlags : Uint4B<br>
+   +0x050 ProcessInJob     : Pos 0, 1 Bit<br>
+   +0x050 ProcessInitializing : Pos 1, 1 Bit<br>
+   +0x050 ProcessUsingVEH  : Pos 2, 1 Bit<br>
+   +0x050 ProcessUsingVCH  : Pos 3, 1 Bit<br>
+   +0x050 ProcessUsingFTH  : Pos 4, 1 Bit<br>
+   +0x050 ProcessPreviouslyThrottled : Pos 5, 1 Bit<br>
+   +0x050 ProcessCurrentlyThrottled : Pos 6, 1 Bit<br>
+   +0x050 ProcessImagesHotPatched : Pos 7, 1 Bit<br>
+   +0x050 ReservedBits0    : Pos 8, 24 Bits<br>
+   +0x054 Padding1         : [4] UChar<br>
+   +0x058 KernelCallbackTable : Ptr64 Void<br>
+   +0x058 UserSharedInfoPtr : Ptr64 Void<br>
+   +0x060 SystemReserved   : Uint4B<br>
+   +0x064 AtlThunkSListPtr32 : Uint4B<br>
+   +0x068 ApiSetMap        : Ptr64 Void<br>
+   +0x070 TlsExpansionCounter : Uint4B<br>
+   +0x074 Padding2         : [4] UChar<br>
+   +0x078 TlsBitmap        : Ptr64 Void<br>
+   +0x080 TlsBitmapBits    : [2] Uint4B<br>
+   +0x088 ReadOnlySharedMemoryBase : Ptr64 Void<br>
+   +0x090 SharedData       : Ptr64 Void<br>
+   +0x098 ReadOnlyStaticServerData : Ptr64 Ptr64 Void<br>
+   +0x0a0 AnsiCodePageData : Ptr64 Void<br>
+   +0x0a8 OemCodePageData  : Ptr64 Void<br>
+   +0x0b0 UnicodeCaseTableData : Ptr64 Void<br>
+   +0x0b8 NumberOfProcessors : Uint4B<br>
+   +0x0bc NtGlobalFlag     : Uint4B<br>
+   +0x0c0 CriticalSectionTimeout : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x0c8 HeapSegmentReserve : Uint8B<br>
+   +0x0d0 HeapSegmentCommit : Uint8B<br>
+   +0x0d8 HeapDeCommitTotalFreeThreshold : Uint8B<br>
+   +0x0e0 HeapDeCommitFreeBlockThreshold : Uint8B<br>
+   +0x0e8 NumberOfHeaps    : Uint4B<br>
+   +0x0ec MaximumNumberOfHeaps : Uint4B<br>
+   +0x0f0 ProcessHeaps     : Ptr64 Ptr64 Void<br>
+   +0x0f8 GdiSharedHandleTable : Ptr64 Void<br>
+   +0x100 ProcessStarterHelper : Ptr64 Void<br>
+   +0x108 GdiDCAttributeList : Uint4B<br>
+   +0x10c Padding3         : [4] UChar<br>
+   +0x110 LoaderLock       : Ptr64 <a href="./_RTL_CRITICAL_SECTION.html">_RTL_CRITICAL_SECTION</a><br>
+   +0x118 OSMajorVersion   : Uint4B<br>
+   +0x11c OSMinorVersion   : Uint4B<br>
+   +0x120 OSBuildNumber    : Uint2B<br>
+   +0x122 OSCSDVersion     : Uint2B<br>
+   +0x124 OSPlatformId     : Uint4B<br>
+   +0x128 ImageSubsystem   : Uint4B<br>
+   +0x12c ImageSubsystemMajorVersion : Uint4B<br>
+   +0x130 ImageSubsystemMinorVersion : Uint4B<br>
+   +0x134 Padding4         : [4] UChar<br>
+   +0x138 ActiveProcessAffinityMask : Uint8B<br>
+   +0x140 GdiHandleBuffer  : [60] Uint4B<br>
+   +0x230 PostProcessInitRoutine : Ptr64     void <br>
+   +0x238 TlsExpansionBitmap : Ptr64 Void<br>
+   +0x240 TlsExpansionBitmapBits : [32] Uint4B<br>
+   +0x2c0 SessionId        : Uint4B<br>
+   +0x2c4 Padding5         : [4] UChar<br>
+   +0x2c8 AppCompatFlags   : <a href="./_ULARGE_INTEGER.html">_ULARGE_INTEGER</a><br>
+   +0x2d0 AppCompatFlagsUser : <a href="./_ULARGE_INTEGER.html">_ULARGE_INTEGER</a><br>
+   +0x2d8 pShimData        : Ptr64 Void<br>
+   +0x2e0 AppCompatInfo    : Ptr64 Void<br>
+   +0x2e8 CSDVersion       : <a href="./_UNICODE_STRING.html">_UNICODE_STRING</a><br>
+   +0x2f8 ActivationContextData : Ptr64 <a href="./_ACTIVATION_CONTEXT_DATA.html">_ACTIVATION_CONTEXT_DATA</a><br>
+   +0x300 ProcessAssemblyStorageMap : Ptr64 <a href="./_ASSEMBLY_STORAGE_MAP.html">_ASSEMBLY_STORAGE_MAP</a><br>
+   +0x308 SystemDefaultActivationContextData : Ptr64 <a href="./_ACTIVATION_CONTEXT_DATA.html">_ACTIVATION_CONTEXT_DATA</a><br>
+   +0x310 SystemAssemblyStorageMap : Ptr64 <a href="./_ASSEMBLY_STORAGE_MAP.html">_ASSEMBLY_STORAGE_MAP</a><br>
+   +0x318 MinimumStackCommit : Uint8B<br>
+   +0x320 SparePointers    : [4] Ptr64 Void<br>
+   +0x340 SpareUlongs      : [5] Uint4B<br>
+   +0x358 WerRegistrationData : Ptr64 Void<br>
+   +0x360 WerShipAssertPtr : Ptr64 Void<br>
+   +0x368 pUnused          : Ptr64 Void<br>
+   +0x370 pImageHeaderHash : Ptr64 Void<br>
+   +0x378 TracingFlags     : Uint4B<br>
+   +0x378 HeapTracingEnabled : Pos 0, 1 Bit<br>
+   +0x378 CritSecTracingEnabled : Pos 1, 1 Bit<br>
+   +0x378 LibLoaderTracingEnabled : Pos 2, 1 Bit<br>
+   +0x378 SpareTracingBits : Pos 3, 29 Bits<br>
+   +0x37c Padding6         : [4] UChar<br>
+   +0x380 CsrServerReadOnlySharedMemoryBase : Uint8B<br>
+   +0x388 TppWorkerpListLock : Uint8B<br>
+   +0x390 TppWorkerpList   : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x3a0 WaitOnAddressHashTable : [128] Ptr64 Void<br>
+   +0x7a0 TelemetryCoverageHeader : Ptr64 Void<br>
+   +0x7a8 CloudFileFlags   : Uint4B<br>
+   +0x7ac CloudFileDiagFlags : Uint4B<br>
+   +0x7b0 PlaceholderCompatibilityMode : Char<br>
+   +0x7b1 PlaceholderCompatibilityModeReserved : [7] Char<br>
+   +0x7b8 LeapSecondData   : Ptr64 <a href="./_LEAP_SECOND_DATA.html">_LEAP_SECOND_DATA</a><br>
+   +0x7c0 LeapSecondFlags  : Uint4B<br>
+   +0x7c0 SixtySecondEnabled : Pos 0, 1 Bit<br>
+   +0x7c0 Reserved         : Pos 1, 31 Bits<br>
+   +0x7c4 NtGlobalFlag2    : Uint4B<br>
+</font></body></html>
