@@ -1,0 +1,45 @@
+<html><body>
+<h4>Windows 10 x64 (18363.720)</h4><br>
+<h2>_ARBITER_INSTANCE</h2>
+<font face="arial">   +0x000 Signature        : Uint4B<br>
+   +0x008 MutexEvent       : Ptr64 <a href="./_KEVENT.html">_KEVENT</a><br>
+   +0x010 Name             : Ptr64 Wchar<br>
+   +0x018 OrderingName     : Ptr64 Wchar<br>
+   +0x020 ResourceType     : Int4B<br>
+   +0x028 Allocation       : Ptr64 <a href="./_RTL_RANGE_LIST.html">_RTL_RANGE_LIST</a><br>
+   +0x030 PossibleAllocation : Ptr64 <a href="./_RTL_RANGE_LIST.html">_RTL_RANGE_LIST</a><br>
+   +0x038 OrderingList     : <a href="./_ARBITER_ORDERING_LIST.html">_ARBITER_ORDERING_LIST</a><br>
+   +0x048 ReservedList     : <a href="./_ARBITER_ORDERING_LIST.html">_ARBITER_ORDERING_LIST</a><br>
+   +0x058 ReferenceCount   : Int4B<br>
+   +0x060 Interface        : Ptr64 <a href="./_ARBITER_INTERFACE.html">_ARBITER_INTERFACE</a><br>
+   +0x068 AllocationStackMaxSize : Uint4B<br>
+   +0x070 AllocationStack  : Ptr64 <a href="./_ARBITER_ALLOCATION_STATE.html">_ARBITER_ALLOCATION_STATE</a><br>
+   +0x078 UnpackRequirement : Ptr64     long <br>
+   +0x080 PackResource     : Ptr64     long <br>
+   +0x088 UnpackResource   : Ptr64     long <br>
+   +0x090 ScoreRequirement : Ptr64     long <br>
+   +0x098 TestAllocation   : Ptr64     long <br>
+   +0x0a0 RetestAllocation : Ptr64     long <br>
+   +0x0a8 CommitAllocation : Ptr64     long <br>
+   +0x0b0 RollbackAllocation : Ptr64     long <br>
+   +0x0b8 BootAllocation   : Ptr64     long <br>
+   +0x0c0 QueryArbitrate   : Ptr64     long <br>
+   +0x0c8 QueryConflict    : Ptr64     long <br>
+   +0x0d0 AddReserved      : Ptr64     long <br>
+   +0x0d8 StartArbiter     : Ptr64     long <br>
+   +0x0e0 PreprocessEntry  : Ptr64     long <br>
+   +0x0e8 AllocateEntry    : Ptr64     long <br>
+   +0x0f0 GetNextAllocationRange : Ptr64     unsigned char <br>
+   +0x0f8 FindSuitableRange : Ptr64     unsigned char <br>
+   +0x100 AddAllocation    : Ptr64     void <br>
+   +0x108 BacktrackAllocation : Ptr64     void <br>
+   +0x110 OverrideConflict : Ptr64     unsigned char <br>
+   +0x118 InitializeRangeList : Ptr64     long <br>
+   +0x120 DeleteOwnerRanges : Ptr64     long <br>
+   +0x128 TransactionInProgress : UChar<br>
+   +0x130 TransactionEvent : Ptr64 <a href="./_KEVENT.html">_KEVENT</a><br>
+   +0x138 Extension        : Ptr64 Void<br>
+   +0x140 BusDeviceObject  : Ptr64 <a href="./_DEVICE_OBJECT.html">_DEVICE_OBJECT</a><br>
+   +0x148 ConflictCallbackContext : Ptr64 Void<br>
+   +0x150 ConflictCallback : Ptr64     unsigned char <br>
+</font></body></html>

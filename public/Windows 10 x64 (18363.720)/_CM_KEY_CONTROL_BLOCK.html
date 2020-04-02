@@ -1,0 +1,60 @@
+<html><body>
+<h4>Windows 10 x64 (18363.720)</h4><br>
+<h2>_CM_KEY_CONTROL_BLOCK</h2>
+<font face="arial">   +0x000 RefCount         : Uint8B<br>
+   +0x008 ExtFlags         : Pos 0, 16 Bits<br>
+   +0x008 Freed            : Pos 16, 1 Bit<br>
+   +0x008 Discarded        : Pos 17, 1 Bit<br>
+   +0x008 HiveUnloaded     : Pos 18, 1 Bit<br>
+   +0x008 Decommissioned   : Pos 19, 1 Bit<br>
+   +0x008 SpareExtFlag     : Pos 20, 1 Bit<br>
+   +0x008 TotalLevels      : Pos 21, 10 Bits<br>
+   +0x010 KeyHash          : <a href="./_CM_KEY_HASH.html">_CM_KEY_HASH</a><br>
+   +0x010 ConvKey          : <a href="./_CM_PATH_HASH.html">_CM_PATH_HASH</a><br>
+   +0x018 NextHash         : Ptr64 <a href="./_CM_KEY_HASH.html">_CM_KEY_HASH</a><br>
+   +0x020 KeyHive          : Ptr64 <a href="./_HHIVE.html">_HHIVE</a><br>
+   +0x028 KeyCell          : Uint4B<br>
+   +0x030 KcbPushlock      : <a href="./_EX_PUSH_LOCK.html">_EX_PUSH_LOCK</a><br>
+   +0x038 Owner            : Ptr64 <a href="./_KTHREAD.html">_KTHREAD</a><br>
+   +0x038 SharedCount      : Int4B<br>
+   +0x040 DelayedDeref     : Pos 0, 1 Bit<br>
+   +0x040 DelayedClose     : Pos 1, 1 Bit<br>
+   +0x040 Parking          : Pos 2, 1 Bit<br>
+   +0x041 LayerSemantics   : UChar<br>
+   +0x042 LayerHeight      : Int2B<br>
+   +0x044 Spare1           : Uint4B<br>
+   +0x048 ParentKcb        : Ptr64 <a href="./_CM_KEY_CONTROL_BLOCK.html">_CM_KEY_CONTROL_BLOCK</a><br>
+   +0x050 NameBlock        : Ptr64 <a href="./_CM_NAME_CONTROL_BLOCK.html">_CM_NAME_CONTROL_BLOCK</a><br>
+   +0x058 CachedSecurity   : Ptr64 <a href="./_CM_KEY_SECURITY_CACHE.html">_CM_KEY_SECURITY_CACHE</a><br>
+   +0x060 ValueList        : <a href="./_CHILD_LIST.html">_CHILD_LIST</a><br>
+   +0x068 LinkTarget       : Ptr64 <a href="./_CM_KEY_CONTROL_BLOCK.html">_CM_KEY_CONTROL_BLOCK</a><br>
+   +0x070 IndexHint        : Ptr64 <a href="./_CM_INDEX_HINT_BLOCK.html">_CM_INDEX_HINT_BLOCK</a><br>
+   +0x070 HashKey          : Uint4B<br>
+   +0x070 SubKeyCount      : Uint4B<br>
+   +0x078 KeyBodyListHead  : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x078 ClonedListEntry  : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x088 KeyBodyArray     : [4] Ptr64 <a href="./_CM_KEY_BODY.html">_CM_KEY_BODY</a><br>
+   +0x0a8 KcbLastWriteTime : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x0b0 KcbMaxNameLen    : Uint2B<br>
+   +0x0b2 KcbMaxValueNameLen : Uint2B<br>
+   +0x0b4 KcbMaxValueDataLen : Uint4B<br>
+   +0x0b8 KcbUserFlags     : Pos 0, 4 Bits<br>
+   +0x0b8 KcbVirtControlFlags : Pos 4, 4 Bits<br>
+   +0x0b8 KcbDebug         : Pos 8, 8 Bits<br>
+   +0x0b8 Flags            : Pos 16, 16 Bits<br>
+   +0x0bc Spare3           : Uint4B<br>
+   +0x0c0 LayerInfo        : Ptr64 <a href="./_CM_KCB_LAYER_INFO.html">_CM_KCB_LAYER_INFO</a><br>
+   +0x0c8 RealKeyName      : Ptr64 Char<br>
+   +0x0d0 KCBUoWListHead   : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x0e0 DelayQueueEntry  : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x0e0 Stolen           : Ptr64 UChar<br>
+   +0x0f0 TransKCBOwner    : Ptr64 <a href="./_CM_TRANS.html">_CM_TRANS</a><br>
+   +0x0f8 KCBLock          : <a href="./_CM_INTENT_LOCK.html">_CM_INTENT_LOCK</a><br>
+   +0x108 KeyLock          : <a href="./_CM_INTENT_LOCK.html">_CM_INTENT_LOCK</a><br>
+   +0x118 TransValueCache  : <a href="./_CHILD_LIST.html">_CHILD_LIST</a><br>
+   +0x120 TransValueListOwner : Ptr64 <a href="./_CM_TRANS.html">_CM_TRANS</a><br>
+   +0x128 FullKCBName      : Ptr64 <a href="./_UNICODE_STRING.html">_UNICODE_STRING</a><br>
+   +0x128 FullKCBNameStale : Pos 0, 1 Bit<br>
+   +0x128 Reserved         : Pos 1, 63 Bits<br>
+   +0x130 SequenceNumber   : Uint8B<br>
+</font></body></html>
