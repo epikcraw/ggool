@@ -1,0 +1,53 @@
+<html><body>
+<h4>Windows 10 x64 (18363.778)</h4><br>
+<h2>_HHIVE</h2>
+<font face="arial">   +0x000 Signature        : Uint4B<br>
+   +0x008 GetCellRoutine   : Ptr64     _<a href="./_CELL_DATA.html">_CELL_DATA</a><br>
+   +0x010 ReleaseCellRoutine : Ptr64     void <br>
+   +0x018 Allocate         : Ptr64     void* <br>
+   +0x020 Free             : Ptr64     void <br>
+   +0x028 FileWrite        : Ptr64     long <br>
+   +0x030 FileRead         : Ptr64     long <br>
+   +0x038 HiveLoadFailure  : Ptr64 Void<br>
+   +0x040 BaseBlock        : Ptr64 <a href="./_HBASE_BLOCK.html">_HBASE_BLOCK</a><br>
+   +0x048 FlusherLock      : <a href="./_CMSI_RW_LOCK.html">_CMSI_RW_LOCK</a><br>
+   +0x050 WriterLock       : <a href="./_CMSI_RW_LOCK.html">_CMSI_RW_LOCK</a><br>
+   +0x058 DirtyVector      : <a href="./_RTL_BITMAP.html">_RTL_BITMAP</a><br>
+   +0x068 DirtyCount       : Uint4B<br>
+   +0x06c DirtyAlloc       : Uint4B<br>
+   +0x070 UnreconciledVector : <a href="./_RTL_BITMAP.html">_RTL_BITMAP</a><br>
+   +0x080 UnreconciledCount : Uint4B<br>
+   +0x084 BaseBlockAlloc   : Uint4B<br>
+   +0x088 Cluster          : Uint4B<br>
+   +0x08c Flat             : Pos 0, 1 Bit<br>
+   +0x08c ReadOnly         : Pos 1, 1 Bit<br>
+   +0x08c Reserved         : Pos 2, 6 Bits<br>
+   +0x08d DirtyFlag        : UChar<br>
+   +0x090 HvBinHeadersUse  : Uint4B<br>
+   +0x094 HvFreeCellsUse   : Uint4B<br>
+   +0x098 HvUsedCellsUse   : Uint4B<br>
+   +0x09c CmUsedCellsUse   : Uint4B<br>
+   +0x0a0 HiveFlags        : Uint4B<br>
+   +0x0a4 CurrentLog       : Uint4B<br>
+   +0x0a8 CurrentLogSequence : Uint4B<br>
+   +0x0ac CurrentLogMinimumSequence : Uint4B<br>
+   +0x0b0 CurrentLogOffset : Uint4B<br>
+   +0x0b4 MinimumLogSequence : Uint4B<br>
+   +0x0b8 LogFileSizeCap   : Uint4B<br>
+   +0x0bc LogDataPresent   : [2] UChar<br>
+   +0x0be PrimaryFileValid : UChar<br>
+   +0x0bf BaseBlockDirty   : UChar<br>
+   +0x0c0 LastLogSwapTime  : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x0c8 FirstLogFile     : Pos 0, 3 Bits<br>
+   +0x0c8 SecondLogFile    : Pos 3, 3 Bits<br>
+   +0x0c8 HeaderRecovered  : Pos 6, 1 Bit<br>
+   +0x0c8 LegacyRecoveryIndicated : Pos 7, 1 Bit<br>
+   +0x0c8 RecoveryInformationReserved : Pos 8, 8 Bits<br>
+   +0x0c8 RecoveryInformation : Uint2B<br>
+   +0x0ca LogEntriesRecovered : [2] UChar<br>
+   +0x0cc RefreshCount     : Uint4B<br>
+   +0x0d0 StorageTypeCount : Uint4B<br>
+   +0x0d4 Version          : Uint4B<br>
+   +0x0d8 ViewMap          : <a href="./_HVP_VIEW_MAP.html">_HVP_VIEW_MAP</a><br>
+   +0x110 Storage          : [2] <a href="./_DUAL.html">_DUAL</a><br>
+</font></body></html>

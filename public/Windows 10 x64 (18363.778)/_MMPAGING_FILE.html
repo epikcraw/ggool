@@ -1,0 +1,50 @@
+<html><body>
+<h4>Windows 10 x64 (18363.778)</h4><br>
+<h2>_MMPAGING_FILE</h2>
+<font face="arial">   +0x000 Size             : Uint8B<br>
+   +0x008 MaximumSize      : Uint8B<br>
+   +0x010 MinimumSize      : Uint8B<br>
+   +0x018 FreeSpace        : Uint8B<br>
+   +0x020 PeakUsage        : Uint8B<br>
+   +0x028 HighestPage      : Uint8B<br>
+   +0x030 FreeReservationSpace : Uint8B<br>
+   +0x038 File             : Ptr64 <a href="./_FILE_OBJECT.html">_FILE_OBJECT</a><br>
+   +0x040 Entry            : [2] Ptr64 <a href="./_MMMOD_WRITER_MDL_ENTRY.html">_MMMOD_WRITER_MDL_ENTRY</a><br>
+   +0x050 PfnsToFree       : <a href="./_SLIST_HEADER.html">_SLIST_HEADER</a><br>
+   +0x060 PageFileName     : <a href="./_UNICODE_STRING.html">_UNICODE_STRING</a><br>
+   +0x070 Bitmaps          : Ptr64 <a href="./_MI_PAGING_FILE_SPACE_BITMAPS.html">_MI_PAGING_FILE_SPACE_BITMAPS</a><br>
+   +0x078 AllocationBitmapHint : Uint4B<br>
+   +0x07c LargestAllocationCluster : Uint4B<br>
+   +0x080 RefreshAllocationCluster : Uint4B<br>
+   +0x084 LastRefreshAllocationCluster : Uint4B<br>
+   +0x088 ReservedClusterSizeAggregate : Uint4B<br>
+   +0x08c MaximumRunLengthInBitmaps : Uint4B<br>
+   +0x090 BitmapsCacheLengthTree : <a href="./_RTL_RB_TREE.html">_RTL_RB_TREE</a><br>
+   +0x0a0 BitmapsCacheLocationTree : <a href="./_RTL_RB_TREE.html">_RTL_RB_TREE</a><br>
+   +0x0b0 BitmapsCacheFreeList : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x0c0 BitmapsCacheEntries : Ptr64 <a href="./_MI_PAGEFILE_BITMAPS_CACHE_ENTRY.html">_MI_PAGEFILE_BITMAPS_CACHE_ENTRY</a><br>
+   +0x0c8 ToBeEvictedCount : Uint4B<br>
+   +0x0c8 HybridPriority   : Uint4B<br>
+   +0x0cc PageFileNumber   : Pos 0, 4 Bits<br>
+   +0x0cc WsSwapPagefile   : Pos 4, 1 Bit<br>
+   +0x0cc NoReservations   : Pos 5, 1 Bit<br>
+   +0x0cc VirtualStorePagefile : Pos 6, 1 Bit<br>
+   +0x0cc SwapSupported    : Pos 7, 1 Bit<br>
+   +0x0cc NodeInserted     : Pos 8, 1 Bit<br>
+   +0x0cc StackNotified    : Pos 9, 1 Bit<br>
+   +0x0cc BackedBySCM      : Pos 10, 1 Bit<br>
+   +0x0cc Spare0           : Pos 11, 4 Bits<br>
+   +0x0ce AdriftMdls       : Pos 0, 1 Bit<br>
+   +0x0ce Spare1           : Pos 1, 7 Bits<br>
+   +0x0cf IgnoreReservations : Pos 0, 1 Bit<br>
+   +0x0cf Spare2           : Pos 1, 7 Bits<br>
+   +0x0d0 PageHashPages    : Uint4B<br>
+   +0x0d4 PageHashPagesPeak : Uint4B<br>
+   +0x0d8 PageHash         : Ptr64 Uint4B<br>
+   +0x0e0 FileHandle       : Ptr64 Void<br>
+   +0x0e8 Lock             : Uint8B<br>
+   +0x0f0 LockOwner        : Ptr64 <a href="./_ETHREAD.html">_ETHREAD</a><br>
+   +0x0f8 FlowThroughReadRoot : <a href="./_RTL_AVL_TREE.html">_RTL_AVL_TREE</a><br>
+   +0x100 Partition        : Ptr64 <a href="./_MI_PARTITION.html">_MI_PARTITION</a><br>
+   +0x108 FileObjectNode   : <a href="./_RTL_BALANCED_NODE.html">_RTL_BALANCED_NODE</a><br>
+</font></body></html>
