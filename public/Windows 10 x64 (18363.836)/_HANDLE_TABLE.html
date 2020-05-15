@@ -1,0 +1,21 @@
+<html><body>
+<h4>Windows 10 x64 (18363.836)</h4><br>
+<h2>_HANDLE_TABLE</h2>
+<font face="arial">   +0x000 NextHandleNeedingPool : Uint4B<br>
+   +0x004 ExtraInfoPages   : Int4B<br>
+   +0x008 TableCode        : Uint8B<br>
+   +0x010 QuotaProcess     : Ptr64 <a href="./_EPROCESS.html">_EPROCESS</a><br>
+   +0x018 HandleTableList  : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x028 UniqueProcessId  : Uint4B<br>
+   +0x02c Flags            : Uint4B<br>
+   +0x02c StrictFIFO       : Pos 0, 1 Bit<br>
+   +0x02c EnableHandleExceptions : Pos 1, 1 Bit<br>
+   +0x02c Rundown          : Pos 2, 1 Bit<br>
+   +0x02c Duplicated       : Pos 3, 1 Bit<br>
+   +0x02c RaiseUMExceptionOnInvalidHandleClose : Pos 4, 1 Bit<br>
+   +0x030 HandleContentionEvent : <a href="./_EX_PUSH_LOCK.html">_EX_PUSH_LOCK</a><br>
+   +0x038 HandleTableLock  : <a href="./_EX_PUSH_LOCK.html">_EX_PUSH_LOCK</a><br>
+   +0x040 FreeLists        : [1] <a href="./_HANDLE_TABLE_FREE_LIST.html">_HANDLE_TABLE_FREE_LIST</a><br>
+   +0x040 ActualEntry      : [32] UChar<br>
+   +0x060 DebugInfo        : Ptr64 <a href="./_HANDLE_TRACE_DEBUG_INFO.html">_HANDLE_TRACE_DEBUG_INFO</a><br>
+</font></body></html>
