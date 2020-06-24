@@ -1,0 +1,73 @@
+<html><body>
+<h4>Windows 10 x64 (19041.329)</h4><br>
+<h2>_DEVICE_NODE</h2>
+<font face="arial">   +0x000 Sibling          : Ptr64 <a href="./_DEVICE_NODE.html">_DEVICE_NODE</a><br>
+   +0x008 Child            : Ptr64 <a href="./_DEVICE_NODE.html">_DEVICE_NODE</a><br>
+   +0x010 Parent           : Ptr64 <a href="./_DEVICE_NODE.html">_DEVICE_NODE</a><br>
+   +0x018 LastChild        : Ptr64 <a href="./_DEVICE_NODE.html">_DEVICE_NODE</a><br>
+   +0x020 PhysicalDeviceObject : Ptr64 <a href="./_DEVICE_OBJECT.html">_DEVICE_OBJECT</a><br>
+   +0x028 InstancePath     : <a href="./_UNICODE_STRING.html">_UNICODE_STRING</a><br>
+   +0x038 ServiceName      : <a href="./_UNICODE_STRING.html">_UNICODE_STRING</a><br>
+   +0x048 PendingIrp       : Ptr64 <a href="./_IRP.html">_IRP</a><br>
+   +0x050 FxDevice         : Ptr64 <a href="./_POP_FX_DEVICE.html">_POP_FX_DEVICE</a><br>
+   +0x058 FxDeviceLock     : Int4B<br>
+   +0x060 FxRemoveEvent    : <a href="./_KEVENT.html">_KEVENT</a><br>
+   +0x078 FxActivationCount : Int4B<br>
+   +0x07c FxSleepCount     : Int4B<br>
+   +0x080 UniqueId         : <a href="./_UNICODE_STRING.html">_UNICODE_STRING</a><br>
+   +0x090 Plugin           : Ptr64 <a href="./_POP_FX_PLUGIN.html">_POP_FX_PLUGIN</a><br>
+   +0x098 Level            : Uint4B<br>
+   +0x09c CurrentPowerState : <a href="./_POWER_STATE.html">_POWER_STATE</a><br>
+   +0x0a0 Notify           : <a href="./_PO_DEVICE_NOTIFY.html">_PO_DEVICE_NOTIFY</a><br>
+   +0x108 PoIrpManager     : <a href="./_PO_IRP_MANAGER.html">_PO_IRP_MANAGER</a><br>
+   +0x128 PowerFlags       : Int4B<br>
+   +0x12c State            : <a href="./_PNP_DEVNODE_STATE.html">_PNP_DEVNODE_STATE</a><br>
+   +0x130 PreviousState    : <a href="./_PNP_DEVNODE_STATE.html">_PNP_DEVNODE_STATE</a><br>
+   +0x134 StateHistory     : [20] <a href="./_PNP_DEVNODE_STATE.html">_PNP_DEVNODE_STATE</a><br>
+   +0x184 StateHistoryEntry : Uint4B<br>
+   +0x188 CompletionStatus : Int4B<br>
+   +0x18c Flags            : Uint4B<br>
+   +0x190 UserFlags        : Uint4B<br>
+   +0x194 Problem          : Uint4B<br>
+   +0x198 ProblemStatus    : Int4B<br>
+   +0x1a0 ResourceList     : Ptr64 <a href="./_CM_RESOURCE_LIST.html">_CM_RESOURCE_LIST</a><br>
+   +0x1a8 ResourceListTranslated : Ptr64 <a href="./_CM_RESOURCE_LIST.html">_CM_RESOURCE_LIST</a><br>
+   +0x1b0 DuplicatePDO     : Ptr64 <a href="./_DEVICE_OBJECT.html">_DEVICE_OBJECT</a><br>
+   +0x1b8 ResourceRequirements : Ptr64 <a href="./_IO_RESOURCE_REQUIREMENTS_LIST.html">_IO_RESOURCE_REQUIREMENTS_LIST</a><br>
+   +0x1c0 InterfaceType    : <a href="./_INTERFACE_TYPE.html">_INTERFACE_TYPE</a><br>
+   +0x1c4 BusNumber        : Uint4B<br>
+   +0x1c8 ChildInterfaceType : <a href="./_INTERFACE_TYPE.html">_INTERFACE_TYPE</a><br>
+   +0x1cc ChildBusNumber   : Uint4B<br>
+   +0x1d0 ChildBusTypeIndex : Uint2B<br>
+   +0x1d2 RemovalPolicy    : UChar<br>
+   +0x1d3 HardwareRemovalPolicy : UChar<br>
+   +0x1d8 TargetDeviceNotify : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x1e8 DeviceArbiterList : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x1f8 DeviceTranslatorList : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x208 NoTranslatorMask : Uint2B<br>
+   +0x20a QueryTranslatorMask : Uint2B<br>
+   +0x20c NoArbiterMask    : Uint2B<br>
+   +0x20e QueryArbiterMask : Uint2B<br>
+   +0x210 OverUsed1        : <a href="./<anonymous-tag>.html"><anonymous-tag></a><br>
+   +0x218 OverUsed2        : <a href="./<anonymous-tag>.html"><anonymous-tag></a><br>
+   +0x220 BootResources    : Ptr64 <a href="./_CM_RESOURCE_LIST.html">_CM_RESOURCE_LIST</a><br>
+   +0x228 BootResourcesTranslated : Ptr64 <a href="./_CM_RESOURCE_LIST.html">_CM_RESOURCE_LIST</a><br>
+   +0x230 CapabilityFlags  : Uint4B<br>
+   +0x238 DockInfo         : <a href="./<anonymous-tag>.html"><anonymous-tag></a><br>
+   +0x258 DisableableDepends : Uint4B<br>
+   +0x260 PendedSetInterfaceState : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x270 LegacyBusListEntry : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x280 DriverUnloadRetryCount : Uint4B<br>
+   +0x288 PreviousParent   : Ptr64 <a href="./_DEVICE_NODE.html">_DEVICE_NODE</a><br>
+   +0x290 DeletedChildren  : Int4B<br>
+   +0x294 NumaNodeIndex    : Uint4B<br>
+   +0x298 ContainerID      : <a href="./_GUID.html">_GUID</a><br>
+   +0x2a8 OverrideFlags    : UChar<br>
+   +0x2ac DeviceIdsHash    : Uint4B<br>
+   +0x2b0 RequiresUnloadedDriver : UChar<br>
+   +0x2b8 PendingEjectRelations : Ptr64 <a href="./_PENDING_RELATIONS_LIST_ENTRY.html">_PENDING_RELATIONS_LIST_ENTRY</a><br>
+   +0x2c0 StateFlags       : Uint4B<br>
+   +0x2c8 RebalanceContext : Ptr64 <a href="./_PNP_REBALANCE_TRACE_CONTEXT.html">_PNP_REBALANCE_TRACE_CONTEXT</a><br>
+   +0x2d0 IommuExtension   : Ptr64 <a href="./_DEVICE_NODE_IOMMU_EXTENSION.html">_DEVICE_NODE_IOMMU_EXTENSION</a><br>
+   +0x2d8 DirectedDripsState : <a href="./_PO_DIRECTED_DRIPS_STATE.html">_PO_DIRECTED_DRIPS_STATE</a><br>
+</font></body></html>

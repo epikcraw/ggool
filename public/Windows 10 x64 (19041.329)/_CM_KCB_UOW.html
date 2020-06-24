@@ -1,0 +1,32 @@
+<html><body>
+<h4>Windows 10 x64 (19041.329)</h4><br>
+<h2>_CM_KCB_UOW</h2>
+<font face="arial">   +0x000 TransactionListEntry : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x010 KCBLock          : Ptr64 <a href="./_CM_INTENT_LOCK.html">_CM_INTENT_LOCK</a><br>
+   +0x018 KeyLock          : Ptr64 <a href="./_CM_INTENT_LOCK.html">_CM_INTENT_LOCK</a><br>
+   +0x020 KCBListEntry     : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x030 KeyControlBlock  : Ptr64 <a href="./_CM_KEY_CONTROL_BLOCK.html">_CM_KEY_CONTROL_BLOCK</a><br>
+   +0x038 Transaction      : Ptr64 <a href="./_CM_TRANS.html">_CM_TRANS</a><br>
+   +0x040 UoWState         : Uint4B<br>
+   +0x044 ActionType       : <a href="./UoWActionType.html">UoWActionType</a><br>
+   +0x048 StorageType      : <a href="./HSTORAGE_TYPE.html">HSTORAGE_TYPE</a><br>
+   +0x050 ParentUoW        : Ptr64 <a href="./_CM_KCB_UOW.html">_CM_KCB_UOW</a><br>
+   +0x058 ChildKCB         : Ptr64 <a href="./_CM_KEY_CONTROL_BLOCK.html">_CM_KEY_CONTROL_BLOCK</a><br>
+   +0x058 VolatileKeyCell  : Uint4B<br>
+   +0x058 OldValueCell     : Uint4B<br>
+   +0x05c NewValueCell     : Uint4B<br>
+   +0x058 UserFlags        : Uint4B<br>
+   +0x058 LastWriteTime    : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x058 TxCachedSecurity : Ptr64 <a href="./_CM_KEY_SECURITY_CACHE.html">_CM_KEY_SECURITY_CACHE</a><br>
+   +0x060 TxSecurityCell   : Uint4B<br>
+   +0x058 OldChildKCB      : Ptr64 <a href="./_CM_KEY_CONTROL_BLOCK.html">_CM_KEY_CONTROL_BLOCK</a><br>
+   +0x060 NewChildKCB      : Ptr64 <a href="./_CM_KEY_CONTROL_BLOCK.html">_CM_KEY_CONTROL_BLOCK</a><br>
+   +0x058 OtherChildKCB    : Ptr64 <a href="./_CM_KEY_CONTROL_BLOCK.html">_CM_KEY_CONTROL_BLOCK</a><br>
+   +0x060 ThisVolatileKeyCell : Uint4B<br>
+   +0x068 PrepareDataPointer : Ptr64 Void<br>
+   +0x068 SecurityData     : Ptr64 <a href="./_CM_UOW_SET_SD_DATA.html">_CM_UOW_SET_SD_DATA</a><br>
+   +0x068 ModifyKeysData   : Ptr64 <a href="./_CM_UOW_KEY_STATE_MODIFICATION.html">_CM_UOW_KEY_STATE_MODIFICATION</a><br>
+   +0x068 SetValueData     : Ptr64 <a href="./_CM_UOW_SET_VALUE_LIST_DATA.html">_CM_UOW_SET_VALUE_LIST_DATA</a><br>
+   +0x070 ValueData        : Ptr64 <a href="./_CM_UOW_SET_VALUE_KEY_DATA.html">_CM_UOW_SET_VALUE_KEY_DATA</a><br>
+   +0x070 DiscardReplaceContext : Ptr64 <a href="./_CMP_DISCARD_AND_REPLACE_KCB_CONTEXT.html">_CMP_DISCARD_AND_REPLACE_KCB_CONTEXT</a><br>
+</font></body></html>
