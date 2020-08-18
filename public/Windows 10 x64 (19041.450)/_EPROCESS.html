@@ -1,0 +1,235 @@
+<html><body>
+<h4>Windows 10 x64 (19041.450)</h4><br>
+<h2>_EPROCESS</h2>
+<font face="arial">   +0x000 Pcb              : <a href="./_KPROCESS.html">_KPROCESS</a><br>
+   +0x438 ProcessLock      : <a href="./_EX_PUSH_LOCK.html">_EX_PUSH_LOCK</a><br>
+   +0x440 UniqueProcessId  : Ptr64 Void<br>
+   +0x448 ActiveProcessLinks : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x458 RundownProtect   : <a href="./_EX_RUNDOWN_REF.html">_EX_RUNDOWN_REF</a><br>
+   +0x460 Flags2           : Uint4B<br>
+   +0x460 JobNotReallyActive : Pos 0, 1 Bit<br>
+   +0x460 AccountingFolded : Pos 1, 1 Bit<br>
+   +0x460 NewProcessReported : Pos 2, 1 Bit<br>
+   +0x460 ExitProcessReported : Pos 3, 1 Bit<br>
+   +0x460 ReportCommitChanges : Pos 4, 1 Bit<br>
+   +0x460 LastReportMemory : Pos 5, 1 Bit<br>
+   +0x460 ForceWakeCharge  : Pos 6, 1 Bit<br>
+   +0x460 CrossSessionCreate : Pos 7, 1 Bit<br>
+   +0x460 NeedsHandleRundown : Pos 8, 1 Bit<br>
+   +0x460 RefTraceEnabled  : Pos 9, 1 Bit<br>
+   +0x460 PicoCreated      : Pos 10, 1 Bit<br>
+   +0x460 EmptyJobEvaluated : Pos 11, 1 Bit<br>
+   +0x460 DefaultPagePriority : Pos 12, 3 Bits<br>
+   +0x460 PrimaryTokenFrozen : Pos 15, 1 Bit<br>
+   +0x460 ProcessVerifierTarget : Pos 16, 1 Bit<br>
+   +0x460 RestrictSetThreadContext : Pos 17, 1 Bit<br>
+   +0x460 AffinityPermanent : Pos 18, 1 Bit<br>
+   +0x460 AffinityUpdateEnable : Pos 19, 1 Bit<br>
+   +0x460 PropagateNode    : Pos 20, 1 Bit<br>
+   +0x460 ExplicitAffinity : Pos 21, 1 Bit<br>
+   +0x460 ProcessExecutionState : Pos 22, 2 Bits<br>
+   +0x460 EnableReadVmLogging : Pos 24, 1 Bit<br>
+   +0x460 EnableWriteVmLogging : Pos 25, 1 Bit<br>
+   +0x460 FatalAccessTerminationRequested : Pos 26, 1 Bit<br>
+   +0x460 DisableSystemAllowedCpuSet : Pos 27, 1 Bit<br>
+   +0x460 ProcessStateChangeRequest : Pos 28, 2 Bits<br>
+   +0x460 ProcessStateChangeInProgress : Pos 30, 1 Bit<br>
+   +0x460 InPrivate        : Pos 31, 1 Bit<br>
+   +0x464 Flags            : Uint4B<br>
+   +0x464 CreateReported   : Pos 0, 1 Bit<br>
+   +0x464 NoDebugInherit   : Pos 1, 1 Bit<br>
+   +0x464 ProcessExiting   : Pos 2, 1 Bit<br>
+   +0x464 ProcessDelete    : Pos 3, 1 Bit<br>
+   +0x464 ManageExecutableMemoryWrites : Pos 4, 1 Bit<br>
+   +0x464 VmDeleted        : Pos 5, 1 Bit<br>
+   +0x464 OutswapEnabled   : Pos 6, 1 Bit<br>
+   +0x464 Outswapped       : Pos 7, 1 Bit<br>
+   +0x464 FailFastOnCommitFail : Pos 8, 1 Bit<br>
+   +0x464 Wow64VaSpace4Gb  : Pos 9, 1 Bit<br>
+   +0x464 AddressSpaceInitialized : Pos 10, 2 Bits<br>
+   +0x464 SetTimerResolution : Pos 12, 1 Bit<br>
+   +0x464 BreakOnTermination : Pos 13, 1 Bit<br>
+   +0x464 DeprioritizeViews : Pos 14, 1 Bit<br>
+   +0x464 WriteWatch       : Pos 15, 1 Bit<br>
+   +0x464 ProcessInSession : Pos 16, 1 Bit<br>
+   +0x464 OverrideAddressSpace : Pos 17, 1 Bit<br>
+   +0x464 HasAddressSpace  : Pos 18, 1 Bit<br>
+   +0x464 LaunchPrefetched : Pos 19, 1 Bit<br>
+   +0x464 Background       : Pos 20, 1 Bit<br>
+   +0x464 VmTopDown        : Pos 21, 1 Bit<br>
+   +0x464 ImageNotifyDone  : Pos 22, 1 Bit<br>
+   +0x464 PdeUpdateNeeded  : Pos 23, 1 Bit<br>
+   +0x464 VdmAllowed       : Pos 24, 1 Bit<br>
+   +0x464 ProcessRundown   : Pos 25, 1 Bit<br>
+   +0x464 ProcessInserted  : Pos 26, 1 Bit<br>
+   +0x464 DefaultIoPriority : Pos 27, 3 Bits<br>
+   +0x464 ProcessSelfDelete : Pos 30, 1 Bit<br>
+   +0x464 SetTimerResolutionLink : Pos 31, 1 Bit<br>
+   +0x468 CreateTime       : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x470 ProcessQuotaUsage : [2] Uint8B<br>
+   +0x480 ProcessQuotaPeak : [2] Uint8B<br>
+   +0x490 PeakVirtualSize  : Uint8B<br>
+   +0x498 VirtualSize      : Uint8B<br>
+   +0x4a0 SessionProcessLinks : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x4b0 ExceptionPortData : Ptr64 Void<br>
+   +0x4b0 ExceptionPortValue : Uint8B<br>
+   +0x4b0 ExceptionPortState : Pos 0, 3 Bits<br>
+   +0x4b8 Token            : <a href="./_EX_FAST_REF.html">_EX_FAST_REF</a><br>
+   +0x4c0 MmReserved       : Uint8B<br>
+   +0x4c8 AddressCreationLock : <a href="./_EX_PUSH_LOCK.html">_EX_PUSH_LOCK</a><br>
+   +0x4d0 PageTableCommitmentLock : <a href="./_EX_PUSH_LOCK.html">_EX_PUSH_LOCK</a><br>
+   +0x4d8 RotateInProgress : Ptr64 <a href="./_ETHREAD.html">_ETHREAD</a><br>
+   +0x4e0 ForkInProgress   : Ptr64 <a href="./_ETHREAD.html">_ETHREAD</a><br>
+   +0x4e8 CommitChargeJob  : Ptr64 <a href="./_EJOB.html">_EJOB</a><br>
+   +0x4f0 CloneRoot        : <a href="./_RTL_AVL_TREE.html">_RTL_AVL_TREE</a><br>
+   +0x4f8 NumberOfPrivatePages : Uint8B<br>
+   +0x500 NumberOfLockedPages : Uint8B<br>
+   +0x508 Win32Process     : Ptr64 Void<br>
+   +0x510 Job              : Ptr64 <a href="./_EJOB.html">_EJOB</a><br>
+   +0x518 SectionObject    : Ptr64 Void<br>
+   +0x520 SectionBaseAddress : Ptr64 Void<br>
+   +0x528 Cookie           : Uint4B<br>
+   +0x530 WorkingSetWatch  : Ptr64 <a href="./_PAGEFAULT_HISTORY.html">_PAGEFAULT_HISTORY</a><br>
+   +0x538 Win32WindowStation : Ptr64 Void<br>
+   +0x540 InheritedFromUniqueProcessId : Ptr64 Void<br>
+   +0x548 OwnerProcessId   : Uint8B<br>
+   +0x550 Peb              : Ptr64 <a href="./_PEB.html">_PEB</a><br>
+   +0x558 Session          : Ptr64 <a href="./_MM_SESSION_SPACE.html">_MM_SESSION_SPACE</a><br>
+   +0x560 Spare1           : Ptr64 Void<br>
+   +0x568 QuotaBlock       : Ptr64 <a href="./_EPROCESS_QUOTA_BLOCK.html">_EPROCESS_QUOTA_BLOCK</a><br>
+   +0x570 ObjectTable      : Ptr64 <a href="./_HANDLE_TABLE.html">_HANDLE_TABLE</a><br>
+   +0x578 DebugPort        : Ptr64 Void<br>
+   +0x580 WoW64Process     : Ptr64 <a href="./_EWOW64PROCESS.html">_EWOW64PROCESS</a><br>
+   +0x588 DeviceMap        : Ptr64 Void<br>
+   +0x590 EtwDataSource    : Ptr64 Void<br>
+   +0x598 PageDirectoryPte : Uint8B<br>
+   +0x5a0 ImageFilePointer : Ptr64 <a href="./_FILE_OBJECT.html">_FILE_OBJECT</a><br>
+   +0x5a8 ImageFileName    : [15] UChar<br>
+   +0x5b7 PriorityClass    : UChar<br>
+   +0x5b8 SecurityPort     : Ptr64 Void<br>
+   +0x5c0 SeAuditProcessCreationInfo : <a href="./_SE_AUDIT_PROCESS_CREATION_INFO.html">_SE_AUDIT_PROCESS_CREATION_INFO</a><br>
+   +0x5c8 JobLinks         : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x5d8 HighestUserAddress : Ptr64 Void<br>
+   +0x5e0 ThreadListHead   : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x5f0 ActiveThreads    : Uint4B<br>
+   +0x5f4 ImagePathHash    : Uint4B<br>
+   +0x5f8 DefaultHardErrorProcessing : Uint4B<br>
+   +0x5fc LastThreadExitStatus : Int4B<br>
+   +0x600 PrefetchTrace    : <a href="./_EX_FAST_REF.html">_EX_FAST_REF</a><br>
+   +0x608 LockedPagesList  : Ptr64 Void<br>
+   +0x610 ReadOperationCount : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x618 WriteOperationCount : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x620 OtherOperationCount : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x628 ReadTransferCount : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x630 WriteTransferCount : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x638 OtherTransferCount : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x640 CommitChargeLimit : Uint8B<br>
+   +0x648 CommitCharge     : Uint8B<br>
+   +0x650 CommitChargePeak : Uint8B<br>
+   +0x680 Vm               : <a href="./_MMSUPPORT_FULL.html">_MMSUPPORT_FULL</a><br>
+   +0x7c0 MmProcessLinks   : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x7d0 ModifiedPageCount : Uint4B<br>
+   +0x7d4 ExitStatus       : Int4B<br>
+   +0x7d8 VadRoot          : <a href="./_RTL_AVL_TREE.html">_RTL_AVL_TREE</a><br>
+   +0x7e0 VadHint          : Ptr64 Void<br>
+   +0x7e8 VadCount         : Uint8B<br>
+   +0x7f0 VadPhysicalPages : Uint8B<br>
+   +0x7f8 VadPhysicalPagesLimit : Uint8B<br>
+   +0x800 AlpcContext      : <a href="./_ALPC_PROCESS_CONTEXT.html">_ALPC_PROCESS_CONTEXT</a><br>
+   +0x820 TimerResolutionLink : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x830 TimerResolutionStackRecord : Ptr64 <a href="./_PO_DIAG_STACK_RECORD.html">_PO_DIAG_STACK_RECORD</a><br>
+   +0x838 RequestedTimerResolution : Uint4B<br>
+   +0x83c SmallestTimerResolution : Uint4B<br>
+   +0x840 ExitTime         : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x848 InvertedFunctionTable : Ptr64 <a href="./_INVERTED_FUNCTION_TABLE.html">_INVERTED_FUNCTION_TABLE</a><br>
+   +0x850 InvertedFunctionTableLock : <a href="./_EX_PUSH_LOCK.html">_EX_PUSH_LOCK</a><br>
+   +0x858 ActiveThreadsHighWatermark : Uint4B<br>
+   +0x85c LargePrivateVadCount : Uint4B<br>
+   +0x860 ThreadListLock   : <a href="./_EX_PUSH_LOCK.html">_EX_PUSH_LOCK</a><br>
+   +0x868 WnfContext       : Ptr64 Void<br>
+   +0x870 ServerSilo       : Ptr64 <a href="./_EJOB.html">_EJOB</a><br>
+   +0x878 SignatureLevel   : UChar<br>
+   +0x879 SectionSignatureLevel : UChar<br>
+   +0x87a Protection       : <a href="./_PS_PROTECTION.html">_PS_PROTECTION</a><br>
+   +0x87b HangCount        : Pos 0, 3 Bits<br>
+   +0x87b GhostCount       : Pos 3, 3 Bits<br>
+   +0x87b PrefilterException : Pos 6, 1 Bit<br>
+   +0x87c Flags3           : Uint4B<br>
+   +0x87c Minimal          : Pos 0, 1 Bit<br>
+   +0x87c ReplacingPageRoot : Pos 1, 1 Bit<br>
+   +0x87c Crashed          : Pos 2, 1 Bit<br>
+   +0x87c JobVadsAreTracked : Pos 3, 1 Bit<br>
+   +0x87c VadTrackingDisabled : Pos 4, 1 Bit<br>
+   +0x87c AuxiliaryProcess : Pos 5, 1 Bit<br>
+   +0x87c SubsystemProcess : Pos 6, 1 Bit<br>
+   +0x87c IndirectCpuSets  : Pos 7, 1 Bit<br>
+   +0x87c RelinquishedCommit : Pos 8, 1 Bit<br>
+   +0x87c HighGraphicsPriority : Pos 9, 1 Bit<br>
+   +0x87c CommitFailLogged : Pos 10, 1 Bit<br>
+   +0x87c ReserveFailLogged : Pos 11, 1 Bit<br>
+   +0x87c SystemProcess    : Pos 12, 1 Bit<br>
+   +0x87c HideImageBaseAddresses : Pos 13, 1 Bit<br>
+   +0x87c AddressPolicyFrozen : Pos 14, 1 Bit<br>
+   +0x87c ProcessFirstResume : Pos 15, 1 Bit<br>
+   +0x87c ForegroundExternal : Pos 16, 1 Bit<br>
+   +0x87c ForegroundSystem : Pos 17, 1 Bit<br>
+   +0x87c HighMemoryPriority : Pos 18, 1 Bit<br>
+   +0x87c EnableProcessSuspendResumeLogging : Pos 19, 1 Bit<br>
+   +0x87c EnableThreadSuspendResumeLogging : Pos 20, 1 Bit<br>
+   +0x87c SecurityDomainChanged : Pos 21, 1 Bit<br>
+   +0x87c SecurityFreezeComplete : Pos 22, 1 Bit<br>
+   +0x87c VmProcessorHost  : Pos 23, 1 Bit<br>
+   +0x87c VmProcessorHostTransition : Pos 24, 1 Bit<br>
+   +0x87c AltSyscall       : Pos 25, 1 Bit<br>
+   +0x87c TimerResolutionIgnore : Pos 26, 1 Bit<br>
+   +0x880 DeviceAsid       : Int4B<br>
+   +0x888 SvmData          : Ptr64 Void<br>
+   +0x890 SvmProcessLock   : <a href="./_EX_PUSH_LOCK.html">_EX_PUSH_LOCK</a><br>
+   +0x898 SvmLock          : Uint8B<br>
+   +0x8a0 SvmProcessDeviceListHead : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x8b0 LastFreezeInterruptTime : Uint8B<br>
+   +0x8b8 DiskCounters     : Ptr64 <a href="./_PROCESS_DISK_COUNTERS.html">_PROCESS_DISK_COUNTERS</a><br>
+   +0x8c0 PicoContext      : Ptr64 Void<br>
+   +0x8c8 EnclaveTable     : Ptr64 Void<br>
+   +0x8d0 EnclaveNumber    : Uint8B<br>
+   +0x8d8 EnclaveLock      : <a href="./_EX_PUSH_LOCK.html">_EX_PUSH_LOCK</a><br>
+   +0x8e0 HighPriorityFaultsAllowed : Uint4B<br>
+   +0x8e8 EnergyContext    : Ptr64 <a href="./_PO_PROCESS_ENERGY_CONTEXT.html">_PO_PROCESS_ENERGY_CONTEXT</a><br>
+   +0x8f0 VmContext        : Ptr64 Void<br>
+   +0x8f8 SequenceNumber   : Uint8B<br>
+   +0x900 CreateInterruptTime : Uint8B<br>
+   +0x908 CreateUnbiasedInterruptTime : Uint8B<br>
+   +0x910 TotalUnbiasedFrozenTime : Uint8B<br>
+   +0x918 LastAppStateUpdateTime : Uint8B<br>
+   +0x920 LastAppStateUptime : Pos 0, 61 Bits<br>
+   +0x920 LastAppState     : Pos 61, 3 Bits<br>
+   +0x928 SharedCommitCharge : Uint8B<br>
+   +0x930 SharedCommitLock : <a href="./_EX_PUSH_LOCK.html">_EX_PUSH_LOCK</a><br>
+   +0x938 SharedCommitLinks : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x948 AllowedCpuSets   : Uint8B<br>
+   +0x950 DefaultCpuSets   : Uint8B<br>
+   +0x948 AllowedCpuSetsIndirect : Ptr64 Uint8B<br>
+   +0x950 DefaultCpuSetsIndirect : Ptr64 Uint8B<br>
+   +0x958 DiskIoAttribution : Ptr64 Void<br>
+   +0x960 DxgProcess       : Ptr64 Void<br>
+   +0x968 Win32KFilterSet  : Uint4B<br>
+   +0x970 ProcessTimerDelay : <a href="./_PS_INTERLOCKED_TIMER_DELAY_VALUES.html">_PS_INTERLOCKED_TIMER_DELAY_VALUES</a><br>
+   +0x978 KTimerSets       : Uint4B<br>
+   +0x97c KTimer2Sets      : Uint4B<br>
+   +0x980 ThreadTimerSets  : Uint4B<br>
+   +0x988 VirtualTimerListLock : Uint8B<br>
+   +0x990 VirtualTimerListHead : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x9a0 WakeChannel      : <a href="./_WNF_STATE_NAME.html">_WNF_STATE_NAME</a><br>
+   +0x9a0 WakeInfo         : <a href="./_PS_PROCESS_WAKE_INFORMATION.html">_PS_PROCESS_WAKE_INFORMATION</a><br>
+   +0x9d0 MitigationFlags  : Uint4B<br>
+   +0x9d0 MitigationFlagsValues : <a href="./<anonymous-tag>.html"><anonymous-tag></a><br>
+   +0x9d4 MitigationFlags2 : Uint4B<br>
+   +0x9d4 MitigationFlags2Values : <a href="./<anonymous-tag>.html"><anonymous-tag></a><br>
+   +0x9d8 PartitionObject  : Ptr64 Void<br>
+   +0x9e0 SecurityDomain   : Uint8B<br>
+   +0x9e8 ParentSecurityDomain : Uint8B<br>
+   +0x9f0 CoverageSamplerContext : Ptr64 Void<br>
+   +0x9f8 MmHotPatchContext : Ptr64 Void<br>
+   +0xa00 DynamicEHContinuationTargetsTree : <a href="./_RTL_AVL_TREE.html">_RTL_AVL_TREE</a><br>
+   +0xa08 DynamicEHContinuationTargetsLock : <a href="./_EX_PUSH_LOCK.html">_EX_PUSH_LOCK</a><br>
+</font></body></html>
