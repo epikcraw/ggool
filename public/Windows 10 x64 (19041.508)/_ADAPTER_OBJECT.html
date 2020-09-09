@@ -1,0 +1,66 @@
+<html><body>
+<h4>Windows 10 x64 (19041.508)</h4><br>
+<h2>_ADAPTER_OBJECT</h2>
+<font face="arial">   +0x000 AdapterObject    : <a href="./_HALP_DMA_ADAPTER_OBJECT.html">_HALP_DMA_ADAPTER_OBJECT</a><br>
+   +0x098 MasterAdapter    : Ptr64 <a href="./_HALP_DMA_MASTER_ADAPTER_OBJECT.html">_HALP_DMA_MASTER_ADAPTER_OBJECT</a><br>
+   +0x0a0 WaitQueueEntry   : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x0b0 ChannelWaitQueue : <a href="./_KDEVICE_QUEUE.html">_KDEVICE_QUEUE</a><br>
+   +0x0b0 ResourceWaitLock : Uint8B<br>
+   +0x0b8 ResourceWaitQueue : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x0c8 ChannelResourceWaitQueue : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x0d8 ResourceQueueBusy : UChar<br>
+   +0x0e0 MapRegistersPerChannel : Uint4B<br>
+   +0x0e8 MapRegisterBase  : Ptr64 Void<br>
+   +0x0f0 NumberOfMapRegisters : Uint4B<br>
+   +0x0f4 MaxTransferLength : Uint4B<br>
+   +0x0f8 CrashDumpRegisterBase : [2] Ptr64 Void<br>
+   +0x108 NumberOfCrashDumpRegisters : [2] Uint4B<br>
+   +0x110 CrashDumpRegisterRefCount : [2] Uint4B<br>
+   +0x118 AdapterCrashDumpList : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x128 MapRegisterMdl   : Ptr64 <a href="./_MDL.html">_MDL</a><br>
+   +0x130 MapRegisterMdlLock : Uint8B<br>
+   +0x138 ExpiredLock      : <a href="./_EX_PUSH_LOCK.html">_EX_PUSH_LOCK</a><br>
+   +0x140 AllocationHandle : Ptr64 Void<br>
+   +0x148 VirtualAddress   : Ptr64 Void<br>
+   +0x150 IsAllocationMdlBased : UChar<br>
+   +0x151 NoLocalPool      : UChar<br>
+   +0x152 ExpiredFlag      : UChar<br>
+   +0x158 CurrentWcb       : Ptr64 <a href="./_WAIT_CONTEXT_BLOCK.html">_WAIT_CONTEXT_BLOCK</a><br>
+   +0x160 CurrentTransferContext : Ptr64 <a href="./_DMA_TRANSFER_CONTEXT.html">_DMA_TRANSFER_CONTEXT</a><br>
+   +0x168 DmaController    : Ptr64 <a href="./_HALP_DMA_CONTROLLER.html">_HALP_DMA_CONTROLLER</a><br>
+   +0x170 Controller       : Uint4B<br>
+   +0x174 ChannelNumber    : Uint4B<br>
+   +0x178 RequestLine      : Uint4B<br>
+   +0x17c RequestedChannelCount : Uint4B<br>
+   +0x180 AllocatedChannelCount : Uint4B<br>
+   +0x184 AllocatedChannels : [8] Uint4B<br>
+   +0x1a8 ChannelAdapter   : Ptr64 Void<br>
+   +0x1b0 NeedsMapRegisters : UChar<br>
+   +0x1b1 MasterDevice     : UChar<br>
+   +0x1b2 ScatterGather    : UChar<br>
+   +0x1b3 AutoInitialize   : UChar<br>
+   +0x1b4 IgnoreCount      : UChar<br>
+   +0x1b5 CacheCoherent    : UChar<br>
+   +0x1b8 Dma32BitAddresses : UChar<br>
+   +0x1b9 Dma64BitAddresses : UChar<br>
+   +0x1b8 DmaAddressWidth  : Uint4B<br>
+   +0x1bc DmaPortWidth     : <a href="./_DMA_WIDTH.html">_DMA_WIDTH</a><br>
+   +0x1c0 DeviceAddress    : <a href="./_LARGE_INTEGER.html">_LARGE_INTEGER</a><br>
+   +0x1c8 AdapterList      : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x1d8 WorkItem         : <a href="./_WORK_QUEUE_ITEM.html">_WORK_QUEUE_ITEM</a><br>
+   +0x1f8 DomainPointer    : Ptr64 <a href="./_HALP_DMA_DOMAIN_OBJECT.html">_HALP_DMA_DOMAIN_OBJECT</a><br>
+   +0x200 TranslationType  : <a href="./_EXT_IOMMU_TRANSLATION_TYPE.html">_EXT_IOMMU_TRANSLATION_TYPE</a><br>
+   +0x204 AdapterInUse     : UChar<br>
+   +0x208 DeviceObject     : Ptr64 <a href="./_DEVICE_OBJECT.html">_DEVICE_OBJECT</a><br>
+   +0x210 DeviceId         : Ptr64 <a href="./_EXT_IOMMU_DEVICE_ID.html">_EXT_IOMMU_DEVICE_ID</a><br>
+   +0x218 IommuDevice      : Ptr64 Void<br>
+   +0x220 ScatterGatherMdl : Ptr64 <a href="./_MDL.html">_MDL</a><br>
+   +0x228 LowMemoryLogicalAddressBase : Uint8B<br>
+   +0x230 LowMemoryLogicalAddressQueueLock : Uint8B<br>
+   +0x238 LowMemoryLogicalAddressQueue : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x248 LowMemoryLogicalAddressQueueInUse : UChar<br>
+   +0x250 LowMemoryLogicalAddressQueueEntry : <a href="./_HALP_EMERGENCY_LA_QUEUE_ENTRY.html">_HALP_EMERGENCY_LA_QUEUE_ENTRY</a><br>
+   +0x268 AllocationState  : <a href="./_HALP_DMA_ADAPTER_ALLOCATION_STATE.html">_HALP_DMA_ADAPTER_ALLOCATION_STATE</a><br>
+   +0x26c ScatterGatherBufferLength : Uint4B<br>
+   +0x270 ScatterGatherBuffer : <a href="./_SCATTER_GATHER_LIST.html">_SCATTER_GATHER_LIST</a><br>
+</font></body></html>

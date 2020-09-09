@@ -1,0 +1,40 @@
+<html><body>
+<h4>Windows 10 x64 (19041.508)</h4><br>
+<h2>_POP_POWER_ACTION</h2>
+<font face="arial">   +0x000 Updates          : UChar<br>
+   +0x001 State            : UChar<br>
+   +0x002 Shutdown         : UChar<br>
+   +0x004 Action           : <a href="./POWER_ACTION.html">POWER_ACTION</a><br>
+   +0x008 LightestState    : <a href="./_SYSTEM_POWER_STATE.html">_SYSTEM_POWER_STATE</a><br>
+   +0x00c Flags            : Uint4B<br>
+   +0x010 Status           : Int4B<br>
+   +0x014 DeviceType       : <a href="./POWER_POLICY_DEVICE_TYPE.html">POWER_POLICY_DEVICE_TYPE</a><br>
+   +0x018 DeviceTypeFlags  : Uint4B<br>
+   +0x01c IrpMinor         : UChar<br>
+   +0x01d Waking           : UChar<br>
+   +0x020 SystemState      : <a href="./_SYSTEM_POWER_STATE.html">_SYSTEM_POWER_STATE</a><br>
+   +0x024 NextSystemState  : <a href="./_SYSTEM_POWER_STATE.html">_SYSTEM_POWER_STATE</a><br>
+   +0x028 EffectiveSystemState : <a href="./_SYSTEM_POWER_STATE.html">_SYSTEM_POWER_STATE</a><br>
+   +0x02c CurrentSystemState : <a href="./_SYSTEM_POWER_STATE.html">_SYSTEM_POWER_STATE</a><br>
+   +0x030 ShutdownBugCode  : Ptr64 <a href="./_POP_SHUTDOWN_BUG_CHECK.html">_POP_SHUTDOWN_BUG_CHECK</a><br>
+   +0x038 DevState         : Ptr64 <a href="./_POP_DEVICE_SYS_STATE.html">_POP_DEVICE_SYS_STATE</a><br>
+   +0x040 HiberContext     : Ptr64 <a href="./_POP_HIBER_CONTEXT.html">_POP_HIBER_CONTEXT</a><br>
+   +0x048 WakeTime         : Uint8B<br>
+   +0x050 SleepTime        : Uint8B<br>
+   +0x058 WakeFirstUnattendedTime : Uint8B<br>
+   +0x060 WakeAlarmSignaled : <a href="./SYSTEM_POWER_CONDITION.html">SYSTEM_POWER_CONDITION</a><br>
+   +0x068 WakeAlarm        : [3] <a href="./<anonymous-tag>.html"><anonymous-tag></a><br>
+   +0x0b0 WakeAlarmPaused  : UChar<br>
+   +0x0b8 WakeAlarmLastTime : Uint8B<br>
+   +0x0c0 DozeDeferralStartTime : Uint8B<br>
+   +0x0c8 FilteredCapabilities : <a href="./SYSTEM_POWER_CAPABILITIES.html">SYSTEM_POWER_CAPABILITIES</a><br>
+   +0x118 WatchdogLock     : Uint8B<br>
+   +0x120 WatchdogDpc      : <a href="./_KDPC.html">_KDPC</a><br>
+   +0x160 WatchdogTimer    : <a href="./_KTIMER.html">_KTIMER</a><br>
+   +0x1a0 WatchdogInitialized : UChar<br>
+   +0x1a4 WatchdogState    : <a href="./_POP_POWER_ACTION_WATCHDOG_STATE.html">_POP_POWER_ACTION_WATCHDOG_STATE</a><br>
+   +0x1a8 WatchdogStartTime : Uint8B<br>
+   +0x1b0 ActionWorkerThread : Ptr64 <a href="./_KTHREAD.html">_KTHREAD</a><br>
+   +0x1b8 PromoteActionWorkerThread : Ptr64 <a href="./_KTHREAD.html">_KTHREAD</a><br>
+   +0x1c0 UnlockAfterSleepWorkerThread : Ptr64 <a href="./_KTHREAD.html">_KTHREAD</a><br>
+</font></body></html>
