@@ -1,0 +1,58 @@
+<html><body>
+<h4>Windows 10 x64 (19042.610)</h4><br>
+<h2>_KPROCESS</h2>
+<font face="arial">   +0x000 Header           : <a href="./_DISPATCHER_HEADER.html">_DISPATCHER_HEADER</a><br>
+   +0x018 ProfileListHead  : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x028 DirectoryTableBase : Uint8B<br>
+   +0x030 ThreadListHead   : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x040 ProcessLock      : Uint4B<br>
+   +0x044 ProcessTimerDelay : Uint4B<br>
+   +0x048 DeepFreezeStartTime : Uint8B<br>
+   +0x050 Affinity         : <a href="./_KAFFINITY_EX.html">_KAFFINITY_EX</a><br>
+   +0x0f8 AffinityPadding  : [12] Uint8B<br>
+   +0x158 ReadyListHead    : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x168 SwapListEntry    : <a href="./_SINGLE_LIST_ENTRY.html">_SINGLE_LIST_ENTRY</a><br>
+   +0x170 ActiveProcessors : <a href="./_KAFFINITY_EX.html">_KAFFINITY_EX</a><br>
+   +0x218 ActiveProcessorsPadding : [12] Uint8B<br>
+   +0x278 AutoAlignment    : Pos 0, 1 Bit<br>
+   +0x278 DisableBoost     : Pos 1, 1 Bit<br>
+   +0x278 DisableQuantum   : Pos 2, 1 Bit<br>
+   +0x278 DeepFreeze       : Pos 3, 1 Bit<br>
+   +0x278 TimerVirtualization : Pos 4, 1 Bit<br>
+   +0x278 CheckStackExtents : Pos 5, 1 Bit<br>
+   +0x278 CacheIsolationEnabled : Pos 6, 1 Bit<br>
+   +0x278 PpmPolicy        : Pos 7, 3 Bits<br>
+   +0x278 VaSpaceDeleted   : Pos 10, 1 Bit<br>
+   +0x278 ReservedFlags    : Pos 11, 21 Bits<br>
+   +0x278 ProcessFlags     : Int4B<br>
+   +0x27c ActiveGroupsMask : Uint4B<br>
+   +0x280 BasePriority     : Char<br>
+   +0x281 QuantumReset     : Char<br>
+   +0x282 Visited          : Char<br>
+   +0x283 Flags            : <a href="./_KEXECUTE_OPTIONS.html">_KEXECUTE_OPTIONS</a><br>
+   +0x284 ThreadSeed       : [20] Uint2B<br>
+   +0x2ac ThreadSeedPadding : [12] Uint2B<br>
+   +0x2c4 IdealProcessor   : [20] Uint2B<br>
+   +0x2ec IdealProcessorPadding : [12] Uint2B<br>
+   +0x304 IdealNode        : [20] Uint2B<br>
+   +0x32c IdealNodePadding : [12] Uint2B<br>
+   +0x344 IdealGlobalNode  : Uint2B<br>
+   +0x346 Spare1           : Uint2B<br>
+   +0x348 StackCount       : <a href="./_KSTACK_COUNT.html">_KSTACK_COUNT</a><br>
+   +0x350 ProcessListEntry : <a href="./_LIST_ENTRY.html">_LIST_ENTRY</a><br>
+   +0x360 CycleTime        : Uint8B<br>
+   +0x368 ContextSwitches  : Uint8B<br>
+   +0x370 SchedulingGroup  : Ptr64 <a href="./_KSCHEDULING_GROUP.html">_KSCHEDULING_GROUP</a><br>
+   +0x378 FreezeCount      : Uint4B<br>
+   +0x37c KernelTime       : Uint4B<br>
+   +0x380 UserTime         : Uint4B<br>
+   +0x384 ReadyTime        : Uint4B<br>
+   +0x388 UserDirectoryTableBase : Uint8B<br>
+   +0x390 AddressPolicy    : UChar<br>
+   +0x391 Spare2           : [71] UChar<br>
+   +0x3d8 InstrumentationCallback : Ptr64 Void<br>
+   +0x3e0 SecureState      : <a href="./<anonymous-tag>.html"><anonymous-tag></a><br>
+   +0x3e8 KernelWaitTime   : Uint8B<br>
+   +0x3f0 UserWaitTime     : Uint8B<br>
+   +0x3f8 EndPadding       : [8] Uint8B<br>
+</font></body></html>
